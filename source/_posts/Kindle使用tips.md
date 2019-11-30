@@ -2,6 +2,7 @@
 title: Kindle使用tips
 tags: []
 date: 2019-05-26 04:05:00
+categories: Geek/酷炫
 ---
 
 无线导入电子书方法：

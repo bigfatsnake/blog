@@ -1,0 +1,42 @@
+---
+title: Now we’re talking /现在我们用说的——语音技术
+tags: []
+date: 2017-03-19 15:33:00
+categories: [ Daily Life/日常生活, After Reading/感想 ]
+---
+
+Now we’re talking 
+Voice technology is making computers less daunting and more accessible 
+现在我们用说的
+语音技术正在使得计算机不再那么令人生畏而是更容易接近
+
+ANY sufficiently advanced technology, noted Arthur C. Clarke, a British science-fiction writer, is indistinguishable from magic. The fast-emerging technology of voice computing proves his point. Using it is just like casting a spell: say a few words into the air, and a nearby device can grant your wish. 
+英国科幻小说作家Arthur C. Clarke指出，任何一种足够先进的技术都跟魔法别无二致。 快速兴起的语音计算技术证明了他的观点。 使用它就像施魔法：说出几个字，附近的设备可以满足你的愿望。 
+
+The Amazon Echo, a voice-driven cylindrical computer that sits on a table top and answers to the name Alexa, can call up music tracks and radio stations, tell jokes, answer trivia questions and control smart appliances; even before Christmas it was already resident in about 4% of American households. Voice assistants are proliferating in smartphones, too: Apple’s Siri handles over 2bn commands a week, and 20% of Google searches on Android-powered handsets in America are input by voice. Dictating e-mails and text messages now works reliably enough to be useful. Why type when you can talk?
+一个语音驱动的圆柱形计算机——亚马逊Echo，放置在桌面上，响应Alexa，可以打开音乐曲目和广播电台，讲笑话，回答各种问题，以及控制智能家电; 即使在圣诞节之前，它已经入驻约4％的美国家庭。 语音助手正在智能手机上快速发展：苹果的Siri每周处理超过20亿条命令，在美国Android手机上谷歌搜索的20％是通过语音输入的。 听写电子邮件和短信，现在已经可以足够可靠地使用。 当你可以用说的，为什么还要靠输入呢？
+ This is a huge shift. Simple though it may seem, voice has the power to transform computing, by providing a natural means of interaction. Windows, icons and menus, and then touchscreens, were welcomed as more intuitive ways to deal with computers than entering complex keyboard commands. But being able to talk to computers abolishes the need for the abstraction of a “user interface” at all. Just as mobile phones were more than existing phones without wires, and cars were more than carriages without horses, so computers without screens and keyboards have the potential to be more useful, powerful and ubiquitous than people can imagine today. 
+这是一个巨大的转变。 虽然它似乎简单，但是通过提供一种自然的互动手段，语音有能力改变计算。 窗口、图标、菜单、和触摸屏因为处理电脑的方式比输入复杂的键盘命令更便捷而受到欢迎。 但是能够与计算机交谈，完全废除了对“用户界面”这种抽象概念的需要。 就像手机没有电线却比现有的座机更多，汽车没有马却比马车更多，因此没有屏幕和键盘的计算机就有潜力比人们今天想象的更有用、更强大和更普及。
+
+Voice will not wholly replace other forms of input and output. Sometimes it will remain more convenient to converse with a machine by typing rather than talking (Amazon is said to be working on an Echo device with a built-in screen). But voice is destined to account for a growing share of people’s interactions with the technology around them, from washing machines that tell you how much of the cycle they have left to virtual assistants in corporate callcentres. However, to reach its full potential, the technology requires further breakthroughs—and a resolution of the tricky questions it raises around the trade-off between convenience and privacy. 
+声音不会完全替代其他形式的输入和输出。 与机器沟通有时键入比说话来得更方便（据说亚马逊正在研究内置屏幕的Echo设备）。 但是注定人们与周围技术的互动，声音的占有率越来越高，从洗衣机告诉你还剩下多少圈到公司呼叫中心的虚拟助理。 然而，要发挥其全部潜能，技术需要进一步的突破，并且需要解决由此带来的一个棘手问题——如何权衡便利和隐私。
+
+Alexa, what is deep learning? 
+Computer-dictation systems have been around for years. But they were unreliable and required lengthy training to learn a specific user’s voice. Computers’ new ability to recognise almost anyone’s speech dependably without training is the latest manifestation of the power of “deep learning”, an artificial- intelligence technique in which a software system is trained using millions of examples, usually culled from the internet. Thanks to deep learning, machines now nearly equal humans in transcription accuracy, computerised translation systems are improving rapidly and text-to-speech systems are becoming less robotic and more natural-sounding. Computers are, in short, getting much better at handling natural language in all its forms (see Technology Quarterly). 
+计算机听写系统已经存在很多年了。 但他们是不可靠的，而且需要长时间的训练来学习一个特定用户的声音。 计算机的新能力——不用训练就可以可靠地识别任何人的讲话，这种能力的最新表现是“深度学习”。即人工智能技术，其软件系统被训练去使用通常从互联网挑选的数百万个示例。 由于深度学习，机器现在在转录准确性方面几乎与人类相当，计算机翻译系统正在迅速改进，文本转语音系统越来越不像机器在发音，听起来更自然。 简而言之，计算机在处理各种形式的自然语言（见技术季刊）方面变得更好。
+
+Although deep learning means that machines can recognise speech more reliably and talk in a less stilted manner, they still don’t understand the meaning of language. That is the most difficult aspect of the problem and, if voice-driven computing is truly to flourish, one that must be overcome. Computers must be able to understand context in order to maintain a coherent conversation about something, rather than just responding to simple, one-off voice commands, as they mostly do today (“Hey, Siri, set a timer for ten minutes”). Researchers in universities and at companies large and small are working on this very problem, building “bots” that can hold more elaborate conversations about more complex tasks, from retrieving information to advising on mortgages to making travel arrangements. (Amazon is offering a $1m prize for a bot that can converse “coherently and engagingly” for 20 minutes.) 
+虽然深度学习意味着机器可以更可靠地识别语音，并且说话方式不那么生硬，但是它们仍然不能理解语言的意思。 这是问题最困难的方面，如果语音驱动计算要真正蓬勃发展，就必须将之克服。 计算机必须能够理解上下文，以便保持连贯对话，而不仅仅是响应简单的、一次性的语音命令，就像它们现在大多能做的那样（“嘿，Siri，设置一个十分钟的闹钟”）。 大学和大大小小公司的研究人员正在研究这个问题，建立可以在更复杂的任务上进行更深入交流的“机器人”，从检索信息到建议按揭、再到安排旅行。 （亚马逊为机器人提供一个100万美元的奖项，只要它可以“连贯并有趣”地交谈20分钟。）
+
+When spells replace spelling 
+Consumers and regulators also have a role to play in determining how voice computing develops. Even in its current, relatively primitive form, the technology poses a dilemma: voice- driven systems are most useful when they are personalised, and are granted wide access to sources of data such as calendars, e-mails and other sensitive information. That raises privacy and security concerns. 
+消费者和监管者也需要在决定语音计算如何发展方面发挥作用。 即使在当前，相对原始的形式，该技术也带来了一个困境：语音驱动系统只有个人化才是最有用的，被允许广泛访问数据源，像日历、电子邮件和其他敏感信息。 这将引起了隐私和安全问题。
+
+To further complicate matters, many voice-driven devices are always listening, waiting to be activated. Some people are already concerned about the implications of internet-connected microphones listening in every room and from every smartphone. Not all audio is sent to the cloud—devices wait for a trigger phrase (“Alexa”, “OK, Google”, “Hey, Cortana”, or “Hey, Siri”) before they start relaying the user’s voice to the servers that actually handle the requests—but when it comes to storing audio, it is unclear who keeps what and when. 
+使事情进一步变得复杂，许多语音驱动设备一直在侦听，以等待被激活。 一些人已经关注在每个房间里和每个智能手机上连接互联网的麦克风的影响。 不是所有的音频都被发送到云端 - 在设备开始将用户的语音传送到实际处理请求的服务器之前，它们在等待触发短语（“Alexa”，“OK，Google”，“Hey，Cortana”或“Hey，Siri” ）- 但是就存储音频而言，目前还不清楚谁存放什么以及什么时候储存。
+
+Police investigating a murder in Arkansas, which may have been overheard by an Amazon Echo, have asked the company for access to any audio that might have been captured. Amazon has refused to co-operate, arguing (with the backing of privacy advocates) that the legal status of such requests is unclear. The situation is analogous to Apple’s refusal in 2016 to help FBI investigators unlock a terrorist’s iPhone; both cases highlight the need for rules that specify when and what intrusions into personal privacy are justified in the interests of security. 
+警方在阿肯色州调查的一个谋杀案，可能已被亚马逊Echo窃听，问这个公司要所有可能已被捕捉到音频的访问入口。 亚马逊拒绝合作，争辩道（在隐私权倡导者的支持下）此类请求的法律地位尚不明确。 与此类似的，苹果在2016年拒绝帮助联邦调查局调查人员解锁一个恐怖分子的iPhone; 这两个案件都突出表明需要相关规定，具体说明在安全利益上何时和什么情况下侵犯个人隐私是可行的。
+
+Consumers will adopt voice computing even if such issues remain unresolved. In many situations voice is far more convenient and natural than any other means of communication. Uniquely, it can also be used while doing something else (driving, working out or walking down the street). It can extend the power of computing to people unable, for one reason or another, to use screens and keyboards. And it could have a dramatic impact not just on computing, but on the use of language itself. Computerised simultaneous translation could render the need to speak a foreign language irrelevant for many people; and in a world where machines can talk, minor languages may be more likely to survive. The arrival of the touchscreen was the last big shift in the way humans interact with computers. The leap to speech matters more. 
+即使这些问题仍未解决，消费者仍会选用语音计算。 在许多情况下，语音比任何其他交流手段来得更加方便和自然。 特别是它也可以用于同时在做别的事情时（驾驶，工作或走在街上）。 它可以将计算的能量延伸到由于某种原因而无法使用屏幕和键盘的人。不仅仅是计算，就是语言使用本身， 可能会产生戏剧性的影响。 计算机同时翻译可能使得很多人没有必要会一门外语; 并且在机器可以说话的世界里，稀少语言更有可能得救。 触摸屏是人类与计算机互动方式的最后一个重大转变。 语音上的飞跃关乎更多。
