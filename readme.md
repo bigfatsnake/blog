@@ -19,7 +19,5 @@ vscode： 使用快捷键 control+shift+\` 创建终端，输入 hexo new [title
 还是在终端里，依次输入
 
 ``` bash
-git add *
-git commit -m 'post'
-git push
+bash ./publish.sh
 ```
