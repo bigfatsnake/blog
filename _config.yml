@@ -90,8 +90,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-## life: https://www.kancloud.cn/weic/themes-life-doc/367652
-theme: life
+## next: https://theme-next.org/docs/getting-started/
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
