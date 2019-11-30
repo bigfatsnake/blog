@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -9,6 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="alternate" href="/atom.xml" title="Amaya" type="application/atom+xml">
 
 <link rel="stylesheet" href="/css/main.css">
 
@@ -20,10 +21,10 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Mist',
     version: '7.5.0',
     exturl: false,
-    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    sidebar: {"position":"right","display":"post","offset":12,"onmobile":false},
     copycode: {"enable":false,"show_result":false,"style":null},
     back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
@@ -42,9 +43,9 @@
     path: '',
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     translation: {
-      copy_button: 'Copy',
-      copy_success: 'Copied',
-      copy_failure: 'Copy failed'
+      copy_button: '复制',
+      copy_success: '复制成功',
+      copy_failure: '复制失败'
     },
     sidebarPadding: 40
   };
@@ -56,8 +57,8 @@
 <meta property="og:url" content="https:&#x2F;&#x2F;bigfatsnake.github.io&#x2F;2018&#x2F;12&#x2F;09&#x2F;%E5%8A%B3%E5%8A%A8%E4%BA%BA%E4%BA%8B%E4%BA%89%E8%AE%AE%E4%BB%B2%E8%A3%81%E5%A7%94%E5%91%98%E4%BC%9A%E7%9A%84%E5%BA%94%E8%AF%89%E9%80%9A%E7%9F%A5&#x2F;index.html">
 <meta property="og:site_name" content="Amaya">
 <meta property="og:description" content="周一一到公司，老板就说10点半开会，要讲解新项目。一脸懵逼，BP的项目才开始两个星期，说好的一个月要完成的，怎么又开始新项目了呢。10点半会议开始才知道，是BP的新项目，做共享纸巾机。上午和下午开了一整天的会，就是讲解需求点和业务逻辑。这是我第一次从头开始参与的项目。虽然听得头昏脑涨，但是我发现这效率是真低。就那么几句话的事情，为什么颠三倒四说了大半天。一方面，讲解人有问题。为了有效地讲解和传达，">
-<meta property="og:locale" content="zh-cn">
-<meta property="og:updated_time" content="2019-11-30T11:02:36.495Z">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-11-30T11:20:27.814Z">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="https://bigfatsnake.github.io/2018/12/09/%E5%8A%B3%E5%8A%A8%E4%BA%BA%E4%BA%8B%E4%BA%89%E8%AE%AE%E4%BB%B2%E8%A3%81%E5%A7%94%E5%91%98%E4%BC%9A%E7%9A%84%E5%BA%94%E8%AF%89%E9%80%9A%E7%9F%A5/">
@@ -125,7 +126,7 @@
   </div>
 
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
+    <div class="toggle" aria-label="切换导航栏">
       <span class="toggle-line toggle-line-first"></span>
       <span class="toggle-line toggle-line-middle"></span>
       <span class="toggle-line toggle-line-last"></span>
@@ -139,12 +140,12 @@
   <ul id="menu" class="menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
 
   </li>
   </ul>
@@ -172,7 +173,7 @@
       
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-cn">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://bigfatsnake.github.io/2018/12/09/%E5%8A%B3%E5%8A%A8%E4%BA%BA%E4%BA%8B%E4%BA%89%E8%AE%AE%E4%BB%B2%E8%A3%81%E5%A7%94%E5%91%98%E4%BC%9A%E7%9A%84%E5%BA%94%E8%AF%89%E9%80%9A%E7%9F%A5/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -194,16 +195,16 @@
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              <span class="post-meta-item-text">Posted on</span>
+              <span class="post-meta-item-text">发表于</span>
 
-              <time title="Created: 2018-12-09 22:51:00" itemprop="dateCreated datePublished" datetime="2018-12-09T22:51:00+00:00">2018-12-09</time>
+              <time title="创建时间：2018-12-09 22:51:00" itemprop="dateCreated datePublished" datetime="2018-12-09T22:51:00+00:00">2018-12-09</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2019-11-30 11:02:36" itemprop="dateModified" datetime="2019-11-30T11:02:36+00:00">2019-11-30</time>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-11-30 11:20:27" itemprop="dateModified" datetime="2019-11-30T11:20:27+00:00">2019-11-30</time>
               </span>
 
           
@@ -275,10 +276,10 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          站点概览
         </li>
       </ul>
 
@@ -300,11 +301,16 @@
           <a href="/archives/">
         
           <span class="site-state-item-count">11</span>
-          <span class="site-state-item-name">posts</span>
+          <span class="site-state-item-name">日志</span>
         </a>
       </div>
   </nav>
 </div>
+  <div class="feed-link motion-element">
+    <a href="/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
 
 
 
@@ -331,10 +337,10 @@
   </span>
   <span class="author" itemprop="copyrightHolder">Amaya</span>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.0.0
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.0.0
   </div>
   <span class="post-meta-divider">|</span>
-  <div class="theme-info">Theme – <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.5.0
+  <div class="theme-info">主题 – <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.5.0
   </div>
 
         

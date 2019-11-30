@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -9,6 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="alternate" href="/atom.xml" title="Amaya" type="application/atom+xml">
 
 <link rel="stylesheet" href="/css/main.css">
 
@@ -20,10 +21,10 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Mist',
     version: '7.5.0',
     exturl: false,
-    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    sidebar: {"position":"right","display":"post","offset":12,"onmobile":false},
     copycode: {"enable":false,"show_result":false,"style":null},
     back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
@@ -42,9 +43,9 @@
     path: '',
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     translation: {
-      copy_button: 'Copy',
-      copy_success: 'Copied',
-      copy_failure: 'Copy failed'
+      copy_button: '复制',
+      copy_success: '复制成功',
+      copy_failure: '复制失败'
     },
     sidebarPadding: 40
   };
@@ -56,8 +57,8 @@
 <meta property="og:url" content="https:&#x2F;&#x2F;bigfatsnake.github.io&#x2F;2019&#x2F;11&#x2F;30&#x2F;%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%A0%87%E9%A2%98&#x2F;index.html">
 <meta property="og:site_name" content="Amaya">
 <meta property="og:description" content="病句分析病句的类型：  重复 残缺。分类：缺少主谓宾。主语，关联词前后。宾语，修饰词太长导致宾语丢失。缺少谓语使得。 一面对两面（例外：因素、程度），多重否定">
-<meta property="og:locale" content="zh-cn">
-<meta property="og:updated_time" content="2019-11-30T11:02:36.495Z">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-11-30T11:20:27.814Z">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="https://bigfatsnake.github.io/2019/11/30/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%A0%87%E9%A2%98/">
@@ -125,7 +126,7 @@
   </div>
 
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
+    <div class="toggle" aria-label="切换导航栏">
       <span class="toggle-line toggle-line-first"></span>
       <span class="toggle-line toggle-line-middle"></span>
       <span class="toggle-line toggle-line-last"></span>
@@ -139,12 +140,12 @@
   <ul id="menu" class="menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
 
   </li>
   </ul>
@@ -172,7 +173,7 @@
       
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-cn">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://bigfatsnake.github.io/2019/11/30/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%A0%87%E9%A2%98/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -194,10 +195,10 @@
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              <span class="post-meta-item-text">Posted on</span>
+              <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="Created: 2019-11-30 00:03:14 / Modified: 11:02:36" itemprop="dateCreated datePublished" datetime="2019-11-30T00:03:14+00:00">2019-11-30</time>
+              <time title="创建时间：2019-11-30 00:03:14 / 修改时间：11:20:27" itemprop="dateCreated datePublished" datetime="2019-11-30T00:03:14+00:00">2019-11-30</time>
             </span>
 
           
@@ -267,10 +268,10 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          站点概览
         </li>
       </ul>
 
@@ -293,11 +294,16 @@
           <a href="/archives/">
         
           <span class="site-state-item-count">11</span>
-          <span class="site-state-item-name">posts</span>
+          <span class="site-state-item-name">日志</span>
         </a>
       </div>
   </nav>
 </div>
+  <div class="feed-link motion-element">
+    <a href="/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
 
 
 
@@ -324,10 +330,10 @@
   </span>
   <span class="author" itemprop="copyrightHolder">Amaya</span>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.0.0
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.0.0
   </div>
   <span class="post-meta-divider">|</span>
-  <div class="theme-info">Theme – <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.5.0
+  <div class="theme-info">主题 – <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.5.0
   </div>
 
         
