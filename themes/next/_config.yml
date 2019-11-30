@@ -49,7 +49,7 @@ favicon:
 
 # hexo-generator-feed required for rss support. Leave rss as blank to use site's feed link.
 # Set rss to false to disable feed link. Set rss to specific value if you have burned your feed already.
-rss:
+rss: /atom.xml
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
@@ -108,10 +108,10 @@ creative_commons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
-#scheme: Pisces
-#scheme: Gemini
+# scheme: Muse
+scheme: Mist
+# scheme: Pisces
+# scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -146,8 +146,8 @@ menu_settings:
 
 sidebar:
   # Sidebar Position.
-  position: left
-  #position: right
+  # position: left
+  position: right
 
   # Manual define the sidebar width. If commented, will be default for:
   # Muse | Mist: 320
@@ -1065,3 +1065,10 @@ vendors:
 css: css
 js: js
 images: images
+
+# feed:
+#   type: rss2
+#   path: rss2.xml
+#   limit: 20
+#   hub:
+#   content: 'true'
