@@ -66,7 +66,7 @@
 <li><input disabled="" type="checkbox"> A. 720度 </li>
 <li><input disabled="" type="checkbox"> B. 600度 </li>
 <li><input disabled="" type="checkbox"> C. 480度 </li>
-<li><input disabled="" type="checkbox"> D. 360度<br>【解析】内角和=(n-2)*180°=4*180°=720°</li>
+<li><input disabled="" type="checkbox"> D. 360度<br>【解析】内角和=$(n-2)\times180°=720°$</li>
 </ul>
 <ol start="13">
 <li>百货商场折价出售一商品，以八折出售的价格比原价少15元，问该商品的原价是多少元？</li>
@@ -87,13 +87,13 @@
 <li><input disabled="" type="checkbox"> D. 48平方米<br>【解析】4→16，1→4，3→12，S=4*12=48。</li>
 </ul>
 <ol start="15">
-<li>1.1^2+1.2^2+1.3^2+1.4^2的值是：</li>
+<li>$1.1^2+1.2^2+1.3^2+1.4^2$的值是：</li>
 </ol>
 <ul>
 <li><input disabled="" type="checkbox"> A. 5.04 </li>
 <li><input disabled="" type="checkbox"> B. 5.49 </li>
 <li><input disabled="" type="checkbox"> C. 6.06 </li>
-<li><input disabled="" type="checkbox"> D. 6.30<br>【解析】方法一：估算=1.2+1.4+1.7+2=6.3。方法二：完全平方拆开=1+0.2+0.01+1+0.4+0.04+1+0.6+0.09+1+0.8+0.16=4+2+0.1+0.2=6.3。</li>
+<li><input disabled="" type="checkbox"> D. 6.30<br>【解析】方法一：估算=$1.2+1.4+1.7+2=6.3$。方法二：完全平方拆开=$1+0.2+0.01+1+0.4+0.04+1+0.6+0.09+1+0.8+0.16=4+2+0.1+0.2=6.3$。</li>
 </ul>
 <ol start="16">
 <li>两个运输队，第一队有320人，第二队有280人，现因任务变动，要求第二队的人数是第一队人数的2倍，须从第一队抽调多少人到第二队？</li>
@@ -111,7 +111,7 @@
 <li><input disabled="" type="checkbox"> A. 1000米 </li>
 <li><input disabled="" type="checkbox"> B. 1100米 </li>
 <li><input disabled="" type="checkbox"> C. 1200米 </li>
-<li><input disabled="" type="checkbox"> D. 1300米<br>【解析】方法一：根据2/3这个倍数关系，可以得出，如果管道是整数，那么只能选C。带入验证，没问题，选上走人。方法二：令全长为x，甲8天→x，甲4天→x/2，乙4天=4*50=（2/3-1/2）x=（1/6）x，x=1200。</li>
+<li><input disabled="" type="checkbox"> D. 1300米<br>【解析】方法一：根据$\frac{2}{3}$这个倍数关系，可以得出，如果管道是整数，那么只能选C。带入验证，没问题，选上走人。方法二：令全长为x，甲8天→x，甲4天→x/2，乙4天=4*50=（2/3-1/2）x=（1/6）x，x=1200。</li>
 </ul>
 <ol>
 <li>某学校学生排成一个方阵，最外层的人数是60人，问这个方阵共有学生多少人?</li>
