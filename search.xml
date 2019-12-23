@@ -23,6 +23,27 @@
 <li><input disabled="" type="checkbox"> C. 7</li>
 <li><input disabled="" type="checkbox"> D. 9<br>【解析】全对应得分为$20\times100=2000$，而实际得了1270分，那么未作答和错题部分，消耗了$2000-1270=730$分。令未作答x题，错题为y题，则未作答耗费20x,错题耗费的是以$20+10=30$为首项，10为公差的等差数列，即$S_n=30y+\frac{y(y-1)}{2}\times10$。那么$20x+30y+\frac{y(y-1)}{2}\times10=730$，化简得$y^2+5y+4x=146$，即$y(y+5)+4x=146$①。当$y=10$时，①式左边大于右边，即y取不到10。当$y=9$时，解得$x=5$，即为所求。</li>
 </ul>
+<p>13.$\ast$(2016年江苏省公务员录用考试《行测》真题（A类）第65题)某志愿服务小组购买一批牛奶到一敬老院慰问老人，如果送给每位老人四盒牛奶，那么还剩28盒，如果送给每位老人5盒，那么最后一位老人又不足4盒，则该敬老院的老人人数至少是</p>
+<ul>
+<li><input disabled="" type="checkbox"> A. 27</li>
+<li><input disabled="" type="checkbox"> B. 29</li>
+<li><input checked="" disabled="" type="checkbox"> C. 30</li>
+<li><input disabled="" type="checkbox"> D. 33<br>【解析】方法一：假设该敬老院老人人数为x，每人分配5盒时最后一位老人分得b(0$\leq$b$\leq$3)盒牛奶，则可得到4x+28=5(x-1)+b，则x=33-b，要使得x值最小，b应取最大值3， 则该敬老院至少有老人30人。 方法二：假设该敬老院老人人数为x，每人分配5盒时最后一位老人分得b(0$\leq$b$\leq$3)盒牛奶，则可得到4x+28=5(x-1)+b，则x=33-b。∵0$\leq$b$\leq$3，∴-3$\leq$-b$\leq$0，则30$\leq$33-b$\leq$33，所以选C。【综合】方法一快。</li>
+</ul>
+<p>14.$\ast$(2015年河北省公务员录用考试《行测》真题第72题)某单位实行无纸化办公，本月比上个月少买了5包A4纸和6包B5纸，共节省了197元。已知每包A4纸的价格比B5纸的贵2元，并且本月用于购买A4纸和B5纸的费用相同（大于0元），那么该单位本月用于购买纸张的费用至少多少元？</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> A. 646</li>
+<li><input disabled="" type="checkbox"> B. 520</li>
+<li><input disabled="" type="checkbox"> C. 323</li>
+<li><input disabled="" type="checkbox"> D. 197<br>【解析】设每包A4纸的价格为a元，每包B5纸的价格为b元，则根据题干等量关系可得：5a＋6b＝197，a-b＝2，解得a＝19，b＝17。因本月用于购买A4纸和B5纸的费用相同，且要求尽可能少，则其购买数量应为二者价格的最简比，即17:19，故本月用于购买纸张的总费用=$19\times17\times2=…6$元，选A。<br>【坑位】1.尽量减少分步运算，直接列出所求的列式。2.如果分步，一定要double-check，求出的答案是否是所求，而不是先核对选项。</li>
+</ul>
+<p>15.$\ast$(2016年北京市公务员录用考试《行测》真题第77题)某企业对销售员的全年考评中，年中考评成绩和年末考评成绩分别20%和30%，销售业绩占50%。销售员甲和乙的全年销售业绩相同，甲的年中考评成绩比乙高3分，乙的全年考评成绩比甲高3分。则乙的年末考评成绩比甲高多少分？（  ）</p>
+<ul>
+<li><input disabled="" type="checkbox"> A. 6</li>
+<li><input disabled="" type="checkbox"> B. 8</li>
+<li><input disabled="" type="checkbox"> C. 10</li>
+<li><input checked="" disabled="" type="checkbox"> D. 12</li>
+</ul>
 ]]></content>
   </entry>
   <entry>
