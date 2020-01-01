@@ -244,6 +244,33 @@
 <li><input checked="" disabled="" type="checkbox"> C. 26%</li>
 <li><input disabled="" type="checkbox"> D. 37%<br>【解析】方法一：赋值法。已知A、B、C三种溶液均为等量混合，故将三种溶液每次放入的质量均设为1。假设A、B、C三种溶液的浓度分别为a、b、c，列式可得a+b=$2\times$17%①，b+c=$2\times$23%②，a+b+c=$3\times$18%③，①+②-③=b=26%，得出B溶液的浓度为26%。方法二：线段法。令每次取的各个溶液的质量均相等。即A、B各取1份，共2份，混合出17%；B、C各取1份，共2份，混合出23%，则取出的这四份A、B、C混合得，1份A、2份B、1份C，混合出20%。已知再各取A、B、C各一份，混合出18%，再与1份的B混合即可得到上述20%的溶液。令B的浓度为x%，根据线段法可得，$20-18\over{x-20}$=$1\over3$，解得x=26。</li>
 </ul>
+<ol start="34">
+<li>*（2014年山东省公务员录用考试《行测》真题第55题）某单位要从8名职员中选派4人去总公司参加培训，其中甲和乙两人不能同时参加。问有多少种选派方法：</li>
+</ol>
+<ul>
+<li><input disabled="" type="checkbox"> A. 40</li>
+<li><input disabled="" type="checkbox"> B. 45</li>
+<li><input checked="" disabled="" type="checkbox"> C. 55</li>
+<li><input disabled="" type="checkbox"> D. 60<br>【解析】方法一：从8人当中选出4人参加培训，共有选法；其中甲乙同时参加的情况有选法（甲乙必定参加，只需从剩下6人中选出2名即可）。则甲乙不同时参加的情况数，即总情况数–甲乙同时参加的情况数＝$C{^4_8}-C{^4_6}=70-15=55$。方法二：分为2种情况：（1）甲乙去一个，再从剩余6人中选3人，即$C{^1_2}C{^3_6}=2\times20=40$；（2）甲、乙都不去，只需从剩余6人中选4人，即$C{^4_6}＝15$。共40＋15＝55种情况。【坑位】不能同时参加，包括只去其一和都不去两种情况。</li>
+</ul>
+<ol start="35">
+<li>*(2014年河北省政法干警考试《行政职业能力测验》试卷（本硕）第50题)某科室共有8人，现在需要抽出两个2人小组到不同的下级单位检查工作，共有多少种不同的安排方案：</li>
+</ol>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> A. 420</li>
+<li><input disabled="" type="checkbox"> B. 840</li>
+<li><input disabled="" type="checkbox"> C. 210</li>
+<li><input disabled="" type="checkbox"> D. 260<br>【解析】方法一：设有两个下级单位A、B。其中需要从8人中选出2人去A单位检查，其选择方案为$C{^2_8}=28$种。然后需从6人中选出2人去B单位检查，其选择方案为$C{^2_6}=15$种。因此总的选择方案为$C{^2_8}C{^2_6}=28\times15=420$种。方法二：先从8人中选出4人备选，其选择方案为$C{^4_8}=70$种。然后需从4人中选出2人组成第一小组，其选择方案为$C{^2_4}=6$种。备选的4人中剩下2人组成第二小组，无需挑选。根据乘法原理，总的选择方案为$C{^4_8}C{^2_4}=70\times6=420$种。【坑位】选方案这种选了分配给谁就是谁了，不需要再考虑排列。</li>
+</ul>
+<ol start="36">
+<li>*（2015年黑龙江省公务员录用考试《行测》真题第70题）从A地到B地的道路如图所示，所有转弯均为直角，问如果要以最短距离从A地到达B地，有多少种不同的走法可以选择？<img src="/2019/12/22/5000%E9%A2%98%E4%B9%8B%E6%95%B0%E5%AD%A6%E8%BF%90%E7%AE%97/%E9%80%89%E9%81%93%E8%B7%AF1.png" class=""></li>
+</ol>
+<ul>
+<li><input disabled="" type="checkbox"> A. 14</li>
+<li><input checked="" disabled="" type="checkbox"> B. 15</li>
+<li><input disabled="" type="checkbox"> C. 18</li>
+<li><input disabled="" type="checkbox"> D. 21<br>【解析】</li>
+</ul>
 ]]></content>
   </entry>
   <entry>
