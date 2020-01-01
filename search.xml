@@ -269,7 +269,8 @@
 <li><input disabled="" type="checkbox"> A. 14</li>
 <li><input checked="" disabled="" type="checkbox"> B. 15</li>
 <li><input disabled="" type="checkbox"> C. 18</li>
-<li><input disabled="" type="checkbox"> D. 21<br>【解析】</li>
+<li><input disabled="" type="checkbox"> D. 21<br>【解析】若要从A到B的路程最短，故只能向上或向右行走，可依据描点法解题，如图所示：<img src="/2019/12/22/5000%E9%A2%98%E4%B9%8B%E6%95%B0%E5%AD%A6%E8%BF%90%E7%AE%97/%E9%80%89%E9%81%93%E8%B7%AF1%E7%AD%94%E6%A1%88.png" class="">
+描点法</li>
 </ul>
 ]]></content>
   </entry>
