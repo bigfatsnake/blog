@@ -8,7 +8,7 @@
 <ol>
 <li><p>（2012年江西省公务员录用考试《行测》真题第107题）将一个三位数的个位数字和百位数字调换后所得的三位数与原三位数的和是1070，差是198，这个三位数是：<br>A 218  B 327  C 436  D 524<br>【解析】方法一：设这个三位数为x，变化后的三位数为y，则有x+y=1070，y-x=198，解之得x=436。方法二：分析可知，这个三位数的百位与个位做和后尾数为0，做差后尾数为8，代入选项只有C满足条件。</p>
 </li>
-<li><p>*（2017年422联考《行测》真题（黑龙江卷）第72题）电子计时器一天显示的时间是从00：00到23：59，每一时刻都由四个数字组成，问一天中显示的四个数字之和为24的时刻一共会出现多少次？<br>A.24  B.12  C.1  D.0<br>【解析】假设电子计时器显示时间为ab：cd ，考虑四个数字之和，根据常识，a只能取0、1、2；b为0~9；c为0<del>5；d为0\</del>9。只有当b、c、d取最大时，加起来才有可以等于24，此时a=1。即一天中显示为19：59时，四个数字之和才为24，这个时刻一共会出现1次。<br>【判定方法】分类讨论。因为a的取值最少，以a来分类。1、当a=2时，b、c、d最大可分别取3、5、9，四数字之和小于24。2、当a=1时，如上述解析。3、当=0，b、c、d最大可分别取9、5、9，四个数字之和小于24。</p>
+<li><p>*（2017年422联考《行测》真题（黑龙江卷）第72题）电子计时器一天显示的时间是从00：00到23：59，每一时刻都由四个数字组成，问一天中显示的四个数字之和为24的时刻一共会出现多少次？<br>A.24  B.12  C.1  D.0<br>【解析】假设电子计时器显示时间为ab：cd ，考虑四个数字之和，根据常识，a只能取0、1、2；b为0-9；c为0-5；d为0-9。只有当b、c、d取最大时，加起来才有可以等于24，此时a=1。即一天中显示为19：59时，四个数字之和才为24，这个时刻一共会出现1次。<br>【判定方法】分类讨论。因为a的取值最少，以a来分类。1、当a=2时，b、c、d最大可分别取3、5、9，四数字之和小于24。2、当a=1时，如上述解析。3、当=0，b、c、d最大可分别取9、5、9，四个数字之和小于24。</p>
 </li>
 <li><p>（2017年422联考《行测》真题（黑龙江卷）第75题）有一个六位数，既能被13整除又能被7整除。已知前三位上的数字是等差数列，三个数字之和为21。个位数与十位数所组成的数字能被11整除。个位数与十万位数上的数字之和为13，与千位数上的数字之和为17，请问百位数上的数字为：<br>A.1  B.2  C.3  D.4<br>【解析】假设这6位数为abcdef，根据题意可得：a+b+c=21=3b，b=7，e与f组成的数字能被11整除，即e=f，f+a=13，f+c=17，得到c-a=4，则前三位公差为2，a=5，c=9，f=8，得到六位数为579d88。根据整除特性，既能被13整除又能被7整除，那么579-d88可以被7和9整除。有因为7和13互质，既能被13整除又能被7整除，即可以被91整除。得到579-100d-88=491-100d可以被91整除，令整除因数为n，即491-100d=91n。显然当n=1时，d=4，满足题意。【判定方法】491-100d=91*5+36-91d-9d=91（5-d）+36-9d=91n，所以36-9d=91或0，解得d=-55/9(∵d∈[0,9]且d∈N，∴增根舍弃)或4。【其他方法】代入选项验证：只有当时，579488既能被13整除又能被7整除。</p>
 </li>
@@ -270,7 +270,179 @@
 <li><input checked="" disabled="" type="checkbox"> B. 15</li>
 <li><input disabled="" type="checkbox"> C. 18</li>
 <li><input disabled="" type="checkbox"> D. 21<br>【解析】若要从A到B的路程最短，故只能向上或向右行走，可依据描点法解题，如图所示：<img src="/2019/12/22/5000%E9%A2%98%E4%B9%8B%E6%95%B0%E5%AD%A6%E8%BF%90%E7%AE%97/%E9%80%89%E9%81%93%E8%B7%AF1%E7%AD%94%E6%A1%88.png" class="">
-描点法</li>
+【释义】描点法又叫标数法：　1、试题特征：给定两个点A和B，且从A到B有多条线路，问在不返回的情况下，从A到B共有多少种走法。常见的不返回情况有：(1)只能沿着某个方向前进；(2)以最短距离行走，这两种说法的实质是一样的。2. 解题方法：(1)从A点到B点中间有多个点，先算出从A点到离A点最近的点有几种方法，把方法数标在该点的对应位置上；(2)逐一求出到下一个点的方法数：到下一个点的方法数＝到该点之前的点的所有方法数之和；(3)在分析的过程中，把到各点的方法数写在各点的对应位置上，这就是标数法名称的来源。</li>
+</ul>
+<ol start="37">
+<li>*（2016年423联考《行测》真题（湖北卷）第61题）在九宫格内依次填入数字1～9，现从中任取两个数，要求取出的两个数既不在同一行也不在同一列，共有多少种不同取法？</li>
+</ol>
+<ul>
+<li><input disabled="" type="checkbox"> A. 9</li>
+<li><input checked="" disabled="" type="checkbox"> B. 18</li>
+<li><input disabled="" type="checkbox"> C. 36</li>
+<li><input disabled="" type="checkbox"> D. 45<br>【解析】方法一：按照题目限定条件，依次枚举，符合条件的有（1，5）、（1，6）、（1，8）、（1，9）；（2，4）、（2，6）、（2，7）、（2，9）；（3，4）、（3，5）、（3，7）、（3，8）；（4，8）、（4，9）；（5，7）、（5，9）；（6，7）、（6，8）。故总共有18种取法。方法二：先从9个格子随机取一个数有9种取法，再从剩下的格子（与第一个数不在同一行、同一列）取一个数有4种取法，因为先取A再取B和先取B再取A的结果是一样的，故要去重复，最终结果共有：$9\times4\div2=18$。【坑位】没有去重。</li>
+</ul>
+<ol start="38">
+<li>*（2014年江苏省公务员录用考试《行测》真题（C类）第28题）某人欲将自己的手机密码设为3位数字，要求第一位是偶数，后两位中至少有一个是6，则他可选择的密码个数为：</li>
+</ol>
+<ul>
+<li><input disabled="" type="checkbox"> A. 68</li>
+<li><input disabled="" type="checkbox"> B. 72</li>
+<li><input checked="" disabled="" type="checkbox"> C. 95</li>
+<li><input disabled="" type="checkbox"> D. 100<br>【解析】密码可选取的数字范围为0~9。因为第一位是偶数，则共有$C{^1_5}=5$种情况。后两位至少有一个是6，分两种情况：①一个6时，有$C{^1_5}C{^1_2}C{^1_{10}}=90$种情况；②当第二位和第三位都是6，有$C{^1_5}=5$种情况。则总共可选择的密码个数有90+5=95个。【坑位】至少一个6，分情况讨论。</li>
+</ul>
+<ol start="39">
+<li>*（2018年国家公务员录用考试《行测》真题（地市级网友回忆版）第68题）某企业国庆放假期间，甲、乙和丙三人被安排在10月1号到6号值班。要求每天安排且仅安排1人值班，每人值班2天，且同一人不连续值班2天。问有多少种不同的安排方式？</li>
+</ol>
+<ul>
+<li><input disabled="" type="checkbox"> A. 15</li>
+<li><input disabled="" type="checkbox"> B. 24</li>
+<li><input checked="" disabled="" type="checkbox"> C. 30</li>
+<li><input disabled="" type="checkbox"> D. 36<br>【解析】方法一：情况较复杂，考虑枚举法，设10月1日安排甲值班，10月2日安排乙值班，将安排情况梳理后：此时符合条件的情况有5种，又因为10月1日和2日可以从甲、乙、丙三人中任选两人值班，所以共有$A{^2_3}\times5=30$种不同的安排方式。方法二：1号，甲乙丙三人选一人，有$C{^1_3}=3$种排法；2号，从另外两人中选一人，有$C{^1_2}=2$种排法；设1号安排甲值班，2号安排乙值班，在3号有两种可能性：①如果为甲，则剩下的4号丙、5号乙、6号丙，有1种情况；②如果为丙，则4号可排甲乙，2种情况，5号有2种情况，一共有$2\times2=4$种情况。因此总的情况数为$3\times2\times(1+4)=30$种不同的安排方式。</li>
+</ul>
+<ol start="40">
+<li>*(2018年421联考《行测》真题（青海卷）（网友回忆版）第59题)某公司新近录用五名应聘人员，将分别安排到产品开发、管理、销售和售后服务这四个部门工作，每个部门至少一人。若其中有两人只能从事销售或售后服务两个部门的工作，其余三人均能从事四个部门的工作，则不同的选派方案共有：</li>
+</ol>
+<ul>
+<li><input disabled="" type="checkbox"> A. 12</li>
+<li><input disabled="" type="checkbox"> B. 18</li>
+<li><input disabled="" type="checkbox"> C. 36</li>
+<li><input checked="" disabled="" type="checkbox"> D. 48<br>【解析】设五名应聘人员分别为甲、乙、丙、丁、戊，其中甲和乙只能从事销售或售后服务两个部门的工作，则根据题意分类讨论如下：1、若甲、乙都安排到同一部门（同时在销售或售后服务部门），其余3人分别安排到剩余三个部门，每个部门1人，有$C{^1_2}A{^3_3}=2\times6=12$种安排方法；2、若甲、乙分别安排到不同部门（一个在销售部门，另一个在售后部门），其余3人有2人安排到产品开发和管理两个部门，剩余1人安排到销售或售后部门，有$A{^2_2}C{^1_3}C{^1_2}A{^2_2}=2\times3\times2\times2=24$种安排方法；3、若甲、乙分别安排到不同部门（一个在销售部门，另一个在售后部门），其余3人全部安排到产品开发和管理两个部门，有$A{^2_2}C{^1_3}A{^2_2}=2\times3\times2=12$种安排方法。因此，不同的选派方案共有12+24+12=48种。【坑位】为什么后两种情况不可以是一种，直接计算$A{^2_2}C{^2_3}A{^2_2}C{^1_4}=48$?</li>
+</ul>
+<ol start="41">
+<li>*(2015年黑龙江省公务员录用考试《行测》真题第60题)三行三列间距相等共有九盏灯，任意亮起其中的三盏组成一个三角形，持续5秒后换另一个三角形，那么如此持续亮。亮完所有的三角形组合至少需要多少秒？</li>
+</ol>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> A. 380</li>
+<li><input disabled="" type="checkbox"> B. 390</li>
+<li><input disabled="" type="checkbox"> C. 410</li>
+<li><input disabled="" type="checkbox"> D. 420<br>【解析】在题干当中，九盏灯组成一个九宫格。九宫格当中，在同一直线上的三个点不能构成三角形，即米字型四条线和最外围四条线：共8种组合不能构成三角形。在九盏灯当中任意选出三盏灯，除构成直线外，其他均可构成一个三角形。从九盏灯当中选出三盏灯一共有$C{^3_9}=84$种组成形式，除去8种直线组合外，还有84－8＝76种三角形组合，则共需76×5＝380秒。</li>
+</ul>
+<ol start="42">
+<li>*（2015年425联考《行测》真题（安徽卷）第56题）掷两个骰子，掷出的点数之和为奇数的概率为P1，掷出的点数之和为偶数的概率为P2，问P1和P2的大小关系？</li>
+</ol>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> A. P1=P2</li>
+<li><input disabled="" type="checkbox"> B. P1&gt;P2</li>
+<li><input disabled="" type="checkbox"> C. P1&lt;P2</li>
+<li><input disabled="" type="checkbox"> D. 无法确定<br>【解析】掷出点数之和为偶数的情况共两种：（奇数+奇数）或（偶数+偶数）。（奇数+奇数）的概率=${3\over6}\times{3\over6}={1\over4}$；（偶数+偶数）的概率=${3\over6}\times{3\over6}={1\over4}$。则掷出点数之和为偶数的总概率P2=${1\over4}+{1\over4}={1\over2}$。那么掷出点数之和为奇数的概率P1=1-P2=$1-{1\over2}={1\over2}$。【坑位】不要想当然。</li>
+</ul>
+<ol start="43">
+<li>*(2013年浙江省公务员录用考试《行测》真题（B类）第58题)将自然数1—100分别写在完全相同的100张卡片上，然后打乱卡片，先后随机取出4张，问这4张先后取出的卡片上的数字呈增序的几率是多少? （  ）</li>
+</ol>
+<ul>
+<li><input disabled="" type="checkbox"> A. $1\over16$</li>
+<li><input checked="" disabled="" type="checkbox"> B. $1\over24$</li>
+<li><input disabled="" type="checkbox"> C. $1\over32$</li>
+<li><input disabled="" type="checkbox"> D. $1\over72$<br>【解析】从100张中随机抽到4张，这4张大小不等，随机排列共有种方法；其中符合增序的排列只有1种，可得概率为$1\over24$。【坑位】如何化复杂为简单，化不会为会。</li>
+</ul>
+<ol start="44">
+<li>（2016年北京市公务员录用考试《行测》真题第85题）甲、乙、丙三人打羽毛球，甲对乙、乙对丙和甲对丙的胜率分别为60%、50%和70%。比赛第一场甲与乙对阵，往后每场都由上一场的胜者对阵上一场的轮空者。则第三场比赛为甲对丙的概率比第二场</li>
+</ol>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> A. 低40个百分点</li>
+<li><input disabled="" type="checkbox"> B. 低20个百分点</li>
+<li><input disabled="" type="checkbox"> C. 高40个百分点</li>
+<li><input disabled="" type="checkbox"> D. 高20个百分点<br>【解析】已知第二场比赛为甲对丙的前提为第一场比赛甲对乙时，甲胜乙负，获胜概率为60%；第三场比赛为甲对丙的前提是，第二场比赛不能为甲对丙，故第一场比赛甲不能胜，则第一场甲负乙胜，概率为1-60%=40%，第二场比赛乙对丙，且乙负丙胜，概率为1-50%=50%，总概率为$40%\times50%=20%$。20%-60%=-40%，即低40个百分点。</li>
+</ul>
+<ol start="45">
+<li>*(2015年山东省公务员录用考试《行测》真题第62题)亲子班上5对母子坐成一圈，孩子都挨着自己的母亲就坐。问所有孩子均不相邻的概率在以下哪个范围内？</li>
+</ol>
+<ul>
+<li><input disabled="" type="checkbox"> A. 小于5%</li>
+<li><input checked="" disabled="" type="checkbox"> B. 5%-10%</li>
+<li><input disabled="" type="checkbox"> C. 10%-15%</li>
+<li><input disabled="" type="checkbox"> D. 大于15%<br>【解析】因“所有的孩子都挨着自己的母亲就座”，在此条件下，总情况数＝$A{^4_4}(C{^1_2})^5=A{^4_4}\times2^5$。当所有孩子均不相邻，其情况数=$A{^4_4}C{^1_2}$。故所有孩子均不相邻的概率=$A{^4_4}C{^1_2}\over{A{^4_4}\times2^5}$=$1\over2^4$=$1\over16$=6.25%。</li>
+</ul>
+<ol start="46">
+<li>*（2019年国家公务员录用考试《行测》真题（地市级网友回忆版）第63题）小张和小王在同一个学校读研究生，每天早上从宿舍到学校有6:40、7:00、7:20和7:40发车的4班校车。某星期周一到周三，小张和小王都坐班车去学校，且每个人在3天中乘坐的班车发车时间都不同。问这3天小张和小王每天都乘坐同一趟班车的概率在：</li>
+</ol>
+<ul>
+<li><input disabled="" type="checkbox"> A. 3%以下</li>
+<li><input disabled="" type="checkbox"> B. 3%-4%之间</li>
+<li><input checked="" disabled="" type="checkbox"> C. 4%-5%之间</li>
+<li><input disabled="" type="checkbox"> D. 15%以上<br>【解析】3天中乘坐的班车发车时间都不同，每人需在四趟班车内依次选三趟乘坐，有$A{^3_4}$种情况。两人在3天中乘坐的班车发车时间都不同的总情况数有$A{^3_4}\times{A{^3_4}}$种，若要求两人每天都乘坐同一趟班车，则其中一人选定之后，另一人只能与他的选择方式相同，有$A{^3_4}$种情况。故这3天小张和小王每天都乘坐同一趟班车的概率=$A{^3_4}\over{A{^3_4}\times{A{^3_4}}}$=$1\over{A{^3_4}}$=${1\over24}&gt;{1\over25}=4%$。</li>
+</ul>
+<ol start="47">
+<li>*(2017年422联考《行测》真题（山东卷）第59题)一副卡牌上面写着1到10的数字，甲和乙从中分别随机抽取三张牌，并比较其中较大的两张牌的牌面之积，数字大的人获胜。甲先抽出三张牌，上面的数字分别是2、6和8，问乙从剩下的牌中抽取三张牌的话，其胜过甲的概率：</li>
+</ol>
+<ul>
+<li><input disabled="" type="checkbox"> A. 高于60%</li>
+<li><input disabled="" type="checkbox"> B. 50%-60%之间</li>
+<li><input checked="" disabled="" type="checkbox"> C. 40%-50%之间</li>
+<li><input disabled="" type="checkbox"> D. 低于40%<br>【解析】总数为乙从剩下的七张牌中抽取三张牌，$C{^3_7}=35$。满足条件的数为两张牌的乘积大于$6\times8=48$，分情况：①较大两个取10和9，剩下一个从1、3、4、5、7中取，共5种情况；②较大两个取10和7，剩下一个从1、3、4、5中取，共4种情况；③较大两个取10和5，剩下一个从1、3、4中取，共3种情况；④较大两个取9和7，剩下一个从1、3、4、5中取，共4种情况；则满足条件数共计5+4+3+4=16种。则乙胜过甲的概率=${16\over35}\approx46%$。</li>
+</ul>
+<ol start="48">
+<li>*（2018年421联考《行测》真题（安徽卷）（网友回忆版）第30题）某单位工会组织桥牌比赛，共有8人报名，随机组成4队，每队2人。那么，小王和小李恰好被分在同一队的概率是：</li>
+</ol>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> A. $1\over7$</li>
+<li><input disabled="" type="checkbox"> B. $1\over14$</li>
+<li><input disabled="" type="checkbox"> C. $1\over21$</li>
+<li><input disabled="" type="checkbox"> D. $1\over28$<br>【解析】方法一：若小王分到任意一队，则从其余7个人中抽1个人与小王同队，正好抽到小李的概率为$1\over7$。方法二：若小王和小李分在一对，那么其他6人的分队情况有$\frac{C{^2_6}C{^2_4}}{A{^3_3}}=15$种。而8人随机组成四队的情况有$\frac{C{^2_8}C{^2_6}C{^2_4}}{A{^4_4}}=105$种。所以，小王和小李分在一组的概率是${15\over105}={1\over7}$。【坑位】随机要去重！！！</li>
+</ul>
+<ol start="49">
+<li>*（2017年江苏省公务员录用考试《行测》真题(B类)第66题）甲、乙、丙三个单位各派2名志愿者参加公益活动，现将这6人随机分成3组，每组2人，则每组成员均来自不同单位的概率是：</li>
+</ol>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> A. $1\over3$</li>
+<li><input disabled="" type="checkbox"> B. $5\over12$</li>
+<li><input disabled="" type="checkbox"> C. $1\over4$</li>
+<li><input disabled="" type="checkbox"> D. $8\over15$<br>【解析】6个人随机分成3组，总数为$\frac{C{^2_6}C{^2_6}}{A{^3_3}}=15$种情况。每组成员来自不同的单位，正向考虑情况数较多，故反向考虑，即考虑每组成员来自相同的单位。第一类情况：只有一组来自同一单位。设甲1甲2同一单位，则剩下的两组可能有两种情况：乙1丙1和乙2丙2；乙1丙2和乙2丙1。满足的情况数为$C{^1_3}C{^1_2}=6$种。第二类情况：有两组来自同一单位，而剩下一组也一定来自同一单位，即三组均来自同一单位，共1种情况。则满足至少有一组成员均来自相同单位的概率=$\frac{6+1}{15}={7\over15}$，所求每组成员均来自不同单位的概率P=$1-{7\over15}$=$8\over15$。</li>
+</ul>
+<ol start="50">
+<li>（2016年江苏省公务员录用考试《行测》真题（B类）第69题）某单位举办设有A、B、C三个项目的趣味运动会，每位员工三个项目都可以报名参加。经统计，共有72名员工报名，其中参加A、B、C三个项目的人数分别为26、32、38，三个项目都参加的有4人，则仅参加一个项目的员工人数是：</li>
+</ol>
+<ul>
+<li><input disabled="" type="checkbox"> A. 48</li>
+<li><input disabled="" type="checkbox"> B. 40</li>
+<li><input checked="" disabled="" type="checkbox"> C. 52</li>
+<li><input disabled="" type="checkbox"> D. 44<br>【解析】方法一：设仅参加一个项目、参加两个项目的人数分别为x、y，根据容斥原理三集合标准公式，可列式：$26+32+38-y+4=72$，解得y=28。根据容斥原理三集合非标准公式，可列式：$x+y-2\times4=72$，解得x=52。方法二：设仅参加一个项目、参加两个项目的人数分别为a、b，根据容斥原理三集合非标准公式，可列式：$26+32+38-b-2\times4=72$，解得b=16。根据容斥原理三集合标准公式，可列式：$a+b+4=72$，解得x=52。【坑位】同时使用标准和非标准。</li>
+</ul>
+<ol start="51">
+<li>*（2019年国家公务员录用考试《行测》真题（地市级网友回忆版）第61题）有100名员工去年和今年均参加考核，考核结果分为优、良、中、差四个等次。今年考核结果为优的人数是去年的1.2倍，今年考核结果为良及以下的人员占比比去年低15个百分点。问两年考核结果均为优的人数至少为多少人？</li>
+</ol>
+<ul>
+<li><input disabled="" type="checkbox"> A. 55</li>
+<li><input checked="" disabled="" type="checkbox"> B. 65</li>
+<li><input disabled="" type="checkbox"> C. 75</li>
+<li><input disabled="" type="checkbox"> D. 85<br>【解析】设去年考核结果为优的有a人，则今年考核结果为优的为1.2a人。根据题意，两年总人数均为100，则今年考核结果为良及以下的人员比去年少了$100\times15%=15$人，即1.2x-x=15。解方程得x=75，则今年获优的有90人。根据两集合容斥原理，75+90-两年都为优的人=100-两年都不为优的人，要“两年都为优的人数”最少，则“两年都不是优的人数”取最小数0，此时两年考核结果均为优的人数=75+90-100=65人。【坑位】绕晕，直接列式，不用思考。</li>
+</ul>
+<ol start="52">
+<li>（2015年425联考《行测》真题（安徽卷）第55题）野生动物保护机构考察某圈养动物的状态，在n(n为正整数)天中观察到：(1)有7个不活跃日(一天中有出现不活跃的情况)； (2)有5个下午活跃； (3)有6个上午活跃；(4)当下午不活跃时，上午必活跃。则n等于：</li>
+</ol>
+<ul>
+<li><input disabled="" type="checkbox"> A. 7</li>
+<li><input disabled="" type="checkbox"> B. 8</li>
+<li><input checked="" disabled="" type="checkbox"> C. 9</li>
+<li><input disabled="" type="checkbox"> D. 10<br>【解析】方法一：根据条件（4）可以推出：下午不活跃则上午必活跃，等价于上午不活跃则下午必活跃，即不存在上午下午都不活跃的情况。由条件（2）得到下午不活跃为n-5，条件（3）得到上午不活跃的为n-6，再结合条件（1）得到整个不活跃的天数为n-5+n-6=7，解方程得n=9。方法二：列表代入法。【坑位】觉得繁琐。</li>
+</ul>
+<ol start="53">
+<li>*（2015年国家公务员录用考试《行测》真题（省部级）第72题）网管员小刘负责甲、乙、丙三个机房的巡检工作，甲、乙和丙机房分别需要每隔2天、4天和7天巡检一次。3月1日，小刘巡检了三个机房，问他在整个3月有几天不用做机房的巡检工作：</li>
+</ol>
+<ul>
+<li><input disabled="" type="checkbox"> A. 12</li>
+<li><input disabled="" type="checkbox"> B. 13</li>
+<li><input checked="" disabled="" type="checkbox"> C. 14</li>
+<li><input disabled="" type="checkbox"> D. 15<br>【解析】每隔N天=每（N+1）天，在3月份剩下的30天中，甲需要巡检的次数为${30\over3}=10$次，同理乙和丙需要巡检的次数为${30\over5}=6$次，${30\over8}=3$次……6天，甲和乙需要巡检的次数为${30\over3\times5}=2$次，乙和丙为${30\over5\times8}=0$次，甲和丙为${30\over3\times8}=1$次，三个机房共同被巡检的天数为0。令休息天x，10+6+3-2-1=30-x。解得x=14。【坑位】总数不是31，是30，3月1日巡查了。</li>
+</ul>
+<ol start="54">
+<li>*（2013年浙江省公务员录用考试《行测》真题（B类）第56题）某班有70%的学生喜欢打羽毛球，75%的学生喜欢打乒乓球，问喜欢打乒乓球的学生中至少有百分之几喜欢打羽毛球? （  ）</li>
+</ol>
+<ul>
+<li><input disabled="" type="checkbox"> A. 30%</li>
+<li><input disabled="" type="checkbox"> B. 45%</li>
+<li><input checked="" disabled="" type="checkbox"> C. 60%</li>
+<li><input disabled="" type="checkbox"> D. 70%<br>【解析】设该班共有100人，则喜欢打羽毛球的有70人，喜欢打乒乓球的有75人；要使喜欢打羽毛球的人中喜欢打乒乓球的最少，那么所有不喜欢打羽毛球的人都喜欢打乒乓球，即100-70=30人，此时喜欢打乒乓球的学生中喜欢打羽毛球的人数为75-30=45人，为最少，45÷75=60%。【坑位】提问处基期量变化。</li>
+</ul>
+<ol start="55">
+<li>（2013年413联考《行测》真题（辽宁/湖南/湖北/安徽/四川/福建/云南/黑龙江/江西/广西/贵州/海南/内蒙古/山西/重庆/宁夏/西藏）第77题）有100人参加运动会的三个项目，每人至少参加一项，其中未参加跳远的有50人，未参加跳高的有60人，未参加赛跑的有70人，问至少有多少人参加了不只一项活动：</li>
+</ol>
+<ul>
+<li><input disabled="" type="checkbox"> A. 7</li>
+<li><input checked="" disabled="" type="checkbox"> B. 10</li>
+<li><input disabled="" type="checkbox"> C. 15</li>
+<li><input disabled="" type="checkbox"> D. 20<br>【解析】方法一：由题意可知，参加跳远的有100-50=50人，参加跳高的有100-60=40人，参加赛跑的有100-70=30人,则总共有50+40+30=120人次参加活动。设参加一个活动的为a人，参加两个活动的为b人，参加三个活动的为c人。则有<br>$$\begin{cases}<br>a+2b+3c=120&amp; \text{①}\\<br>a+b+c=100&amp; \text{②}<br>\end{cases}$$两式相减可得：b+2c=20。参加了不只一项活动的人数（b+c）最少，即参加2项和3项活动的人数最少，最少的情况为没有参加2项的，全部参加3项，即b=0，则c=10=b+c。方法二：文氏图标出所有7个部分，分别为a、b、c、d、e、f、g，然后由图可列式：
+$$<br>\begin{cases}<br>a+b+c=50&amp; \text{①}\\<br>a+d+g=60&amp; \text{②}\\<br>a+d+g=60&amp; \text{③}<br>\end{cases}$$</li>
 </ul>
 ]]></content>
   </entry>
@@ -2289,9 +2461,9 @@
       </tags>
   </entry>
   <entry>
-    <title>病句</title>
+    <title>记事本</title>
     <url>/2019/11/30/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%A0%87%E9%A2%98/</url>
-    <content><![CDATA[<h3 id="记事本"><a href="#记事本" class="headerlink" title="记事本"></a>记事本</h3><p>${66.9\over14%}\over{27.9\over18%}$-1=${0.669\over14}\over{0.279\over18}$-1≈${2\over3}\times{1\over14}\over{1\over3.5}\times{1\over18}$-1=${2\over3}\times18\over{1\over3.5}\times14$-1=${2\times6}\over4$-1=3-1=2<br>$\approx$</p>
+    <content><![CDATA[<h3 id="记事本"><a href="#记事本" class="headerlink" title="记事本"></a>记事本</h3><p>${66.9\over14%}\over{27.9\over18%}$-1=${0.669\over14}\over{0.279\over18}$-1≈${2\over3}\times{1\over14}\over{1\over3.5}\times{1\over18}$-1=${2\over3}\times18\over{1\over3.5}\times14$-1=${2\times6}\over4$-1=3-1=2</p>
 ]]></content>
       <categories>
         <category>分类1</category>
@@ -2329,7 +2501,7 @@
   </entry>
   <entry>
     <title>想奶奶了</title>
-    <url>/2019/08/20/%E6%83%B3%E5%A5%B6%E5%A5%B6%E4%BA%86/</url>
+    <url>/2019/08/20/past/%E6%83%B3%E5%A5%B6%E5%A5%B6%E4%BA%86/</url>
     <content><![CDATA[<p>奶奶离开快四年了。这四年里，我经历了四次没有奶奶的中秋，四次没有奶奶的春节。</p>
 <p>奶娘从来没有使唤过我，直到病重她才唯一一次使唤过我。她让我给爷爷煮碗粥。那年我27.不知道是她习惯性宠爷爷，还是想测试我独立生活的能力。她提出了这辈子对我唯一的要求。</p>
 <p>我从来没有跟奶奶汇报过我的成绩。可是奶奶都知道。不仅她知道，而且她让所有的亲戚都知道。奶奶不是一个记忆力出众的人，也并不是善于表达的人。我不知道她是通过什么样的方式记下了我所有的荣誉，我也不知道她是通过什么样的方式让所有她认识的人都了解到我的荣誉。</p>
@@ -2341,7 +2513,7 @@
   </entry>
   <entry>
     <title>Kindle使用tips</title>
-    <url>/2019/05/26/Kindle%E4%BD%BF%E7%94%A8tips/</url>
+    <url>/2019/05/26/past/Kindle%E4%BD%BF%E7%94%A8tips/</url>
     <content><![CDATA[<p>无线导入电子书方法：<br>1、手机下载kindle app。<br>2、下载电子书后用kindle app打开，同时保存kindle图书馆。<br>3、kindle app和kindle设备会同步可下载。</p>
 <p>Note：<br>1、格式不可以为azw3。<br>2、转换格式可以用<a href="https://convertio.co/zh/" target="_blank" rel="noopener">convertio</a>，Chrome有其扩展插件。这个插件可以识别文字（tested）、转换音视频和图片等各种文档。</p>
 ]]></content>
@@ -2351,7 +2523,7 @@
   </entry>
   <entry>
     <title>《联盟——互联网时代的人才变革》</title>
-    <url>/2019/02/02/%E3%80%8A%E8%81%94%E7%9B%9F%E2%80%94%E2%80%94%E4%BA%92%E8%81%94%E7%BD%91%E6%97%B6%E4%BB%A3%E7%9A%84%E4%BA%BA%E6%89%8D%E5%8F%98%E9%9D%A9%E3%80%8B/</url>
+    <url>/2019/02/02/past/%E3%80%8A%E8%81%94%E7%9B%9F%E2%80%94%E2%80%94%E4%BA%92%E8%81%94%E7%BD%91%E6%97%B6%E4%BB%A3%E7%9A%84%E4%BA%BA%E6%89%8D%E5%8F%98%E9%9D%A9%E3%80%8B/</url>
     <content><![CDATA[<p>这本书很短。每一页的行数很少，每行的字数也很少，然后行间距还很大。很快就可以看完。上周日去参加了一个HR的分享会。虽然内容上算不得高深，但是还是有一些耳目一新的观点。比如说，独立于企业，打造自己的社交IP。说是你要反问自己，离开了公司，你还剩下什么？这个问题，我思考过，甚至默认了离开公司，“你什么都不是”是一种常态。然后在分享会上听到要“独立于企业打造自己的资源”，讲真心底深处有一丝抵触，觉得这种行为有愧于企业。今天看了《联盟》，是在讲企业如何帮助员工打造他们的人脉并反哺于企业。顿时觉得自己的格局真的是可以，还有愧于企业，明明可以是通过个人借助外力有助于企业。还有一点就是我们因为集体主义的观念深入人心，是不是为自己考虑的太少了点呢。《联盟》讲现在的雇佣关系，就应该是双赢的关系。企业承诺培养，人才承诺贡献，还帮助人才成长……</p>
 ]]></content>
       <categories>
@@ -2361,7 +2533,7 @@
   </entry>
   <entry>
     <title>《从招聘到离职-人力资源管理实务操作宝典》——从法律角度谈用人的前前后后</title>
-    <url>/2019/01/24/%E3%80%8A%E4%BB%8E%E6%8B%9B%E8%81%98%E5%88%B0%E7%A6%BB%E8%81%8C-%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%AE%9E%E5%8A%A1%E6%93%8D%E4%BD%9C%E5%AE%9D%E5%85%B8%E3%80%8B%E2%80%94%E2%80%94%E4%BB%8E%E6%B3%95%E5%BE%8B%E8%A7%92%E5%BA%A6%E8%B0%88%E7%94%A8%E4%BA%BA%E7%9A%84%E5%89%8D%E5%89%8D%E5%90%8E%E5%90%8E/</url>
+    <url>/2019/01/24/past/%E3%80%8A%E4%BB%8E%E6%8B%9B%E8%81%98%E5%88%B0%E7%A6%BB%E8%81%8C-%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%AE%9E%E5%8A%A1%E6%93%8D%E4%BD%9C%E5%AE%9D%E5%85%B8%E3%80%8B%E2%80%94%E2%80%94%E4%BB%8E%E6%B3%95%E5%BE%8B%E8%A7%92%E5%BA%A6%E8%B0%88%E7%94%A8%E4%BA%BA%E7%9A%84%E5%89%8D%E5%89%8D%E5%90%8E%E5%90%8E/</url>
     <content><![CDATA[<p>这本书分四章，分别为招聘、入职、在职和离职，主要讲解的是贯穿其中的法律问题。用问答和案例的形式展现，通俗易懂、言简意赅、井井有条。既然重点是普及劳动用人的法律常识，这里就把所有涉及的法律做一个罗列，以便随时查阅。</p>
 <p>《中华人民共和国劳动法》<br>《关于贯彻执行＜中华人民共和国劳动法＞若干问题的意见》<br>《中华人民共和国劳动合同法》<br>《中华人民共和国劳动合同法实施条例》<br>《全国人民代表大会常务委员会关于修改〈中华人民共和国劳动合同法〉的决定》<br>《中华人民共和国就业促进法》<br>《就业服务与就业管理规定》<br>《关于确立劳动关系有关事项的通知》<br>《深圳经济特区劳动合同条例》——地方法规<br>《中华人民共和国劳动争议调解仲裁法》<br>《中华人民共和国反不正当竞争法》<br>《国务院关于修改＜国务院关于职工工作时间的规定＞的决定》<br>《劳动部关于企业实行不定时工作制度和综合计算工时工作制的审批办法》<br>《劳动和社会保障部关于职工全年月平均工作时间和工资折算问题的通知》<br>《职工带薪年休假条例》<br>《女职工劳动保护规定》<br>《劳动部关于女职工生育待遇若干问题的通知》<br>《国务院关于职工探亲待遇的规定》<br>《关于国营企业职工请婚丧假和路程假问题的通知》<br>劳动部办公厅对《关于劳动用工管理有关问题的请示》的复函<br>《企业职工患病或非因工负伤医疗期规定》<br>《国务院关于建立统一的企业职工基本养老保险制度的决定》<br>《工伤保险条例（2010修订）》<br>《关于个人与用人单位解除劳动关系取得的一次性补偿收入征免个人所得税问题的通知》<br>《国家税务总局关于个人因解除劳动合同取得经济补偿金征收个人所得税问题的通知》</p>
 <p>PS：两个法条链接<br>中国法院网法律文库查询：<a href="https://www.chinacourt.org/law.shtml" target="_blank" rel="noopener">https://www.chinacourt.org/law.shtml</a><br>劳动法宝网法规查询：<a href="http://law.51labour.com/" target="_blank" rel="noopener">http://law.51labour.com/</a></p>
@@ -2373,7 +2545,7 @@
   </entry>
   <entry>
     <title>读《大江东去》</title>
-    <url>/2019/01/22/%E8%AF%BB%E3%80%8A%E5%A4%A7%E6%B1%9F%E4%B8%9C%E5%8E%BB%E3%80%8B/</url>
+    <url>/2019/01/22/past/%E8%AF%BB%E3%80%8A%E5%A4%A7%E6%B1%9F%E4%B8%9C%E5%8E%BB%E3%80%8B/</url>
     <content><![CDATA[<p>花了好几天才把后两部看完。怎么说呢？有种醍醐灌顶的意思。对自己的日常工作生活有现实的指导意义。上一次有这样的感受是《围城》。当时觉得要是自己的在留学前就看过该多好。这次是如果自己在工作前看到该多好。只能自我安慰道，只有经历过才会理解得如此这般。但是，还是忍不住想要是提前就知道这些种种，或者在有一点点相关性的时候，就试着去理解所有。是不是就不会有自己无头苍蝇般一一尝试后的遍体鳞伤……</p>
 ]]></content>
       <categories>
@@ -2382,7 +2554,7 @@
   </entry>
   <entry>
     <title>好多事</title>
-    <url>/2018/12/23/%E5%A5%BD%E5%A4%9A%E4%BA%8B/</url>
+    <url>/2018/12/23/past/%E5%A5%BD%E5%A4%9A%E4%BA%8B/</url>
     <content><![CDATA[<p>关于管理</p>
 <p>上周会计告诉我她可能怀孕了。当时她还在跟她老公因为小姑子借车的事情冷战。并且没有和好的意思。我真的是被她气到肺炸裂。为什么有些人永远搞不清楚重点？与其一个人在担惊受怕，要死要活，为什么不告诉老公，一起分担？说什么指望不上，你忒么都没有给人家知情权好么？治理小姑子、刷自己存在感这件事情有怀上二胎的万分之一重要吗？</p>
 <p>听到她有可能怀二胎这件事，让我一时间是五雷轰顶的。要知道她9月底才做的清宫手术。7月份才做的入职体检。怎么可以让自己在这个时间点怀孕。不说才入职5个月，就说这身体这状态，完全不在乎优生优育的嘛？还有，这都可能怀二胎了，还冷战什么啊。赶紧确认，赶紧商量要还是不要啊。好说歹说，同意和好，同意安排检查。结果临时又出什么幺儿子，和是和好了，但是没去检查。</p>
@@ -2403,7 +2575,7 @@
   </entry>
   <entry>
     <title>老板本周不在</title>
-    <url>/2018/12/16/%E8%80%81%E6%9D%BF%E6%9C%AC%E5%91%A8%E4%B8%8D%E5%9C%A8/</url>
+    <url>/2018/12/16/past/%E8%80%81%E6%9D%BF%E6%9C%AC%E5%91%A8%E4%B8%8D%E5%9C%A8/</url>
     <content><![CDATA[<p>我也是这两个月才发现老板每个月总是要出差一周的。究竟去哪了，干啥去了，依然不曾提起过。不过，从他之前报销的机票来看，是去澳洲和韩国了。嗯，这周出现了一个破天荒的状况，周一的时候老板主动微信告诉我他出差了，让好好管理下公司。要知道老板本人是极度缺乏安全感的人，从来不给别人交底，至少在出差这件事情上。一开始就在公司的每个角落安装了摄像头，前两周更是更新了摄像头的存储功能。似乎就是宣告对员工的状态没底，对公司的运营没信心。喜欢出其不意的出现在公司的癖好，似乎就是要表示随时要检查工作的意思。这周好了，居然主动表示他不在。不过，还是有所保留的表示，出差两天（实际上是一周）。即使这样已经是很大的进步了，至少他在表示他愿意相信，相信他在与不在工作总是在完成。</p>
 <p>我真的是做到老板在与不在一个样。反正我的工作，都是我自己安排的。为了尽快健全自己的管理才能，我还是蛮忙的。除了要管，还要学，可没工夫偷懒。最近增加的一个工作就是老板安排的每天发日报。发了快一个月的日报，效果不是一般地可见。因为我比较认真，每天晚上为了不耽误老板收到日报，我就大概看一下大家的日报，然后大概做一下总结。第二天或者接下来有空的时候，就仔细研究大家的日报。研究着研究着，就越来越了解大家的工作了。一开始是仔细核对产品的原型，然后是认真检查UI的界面，最后开始谨慎监督技术的进度。再后来，不仅了解了技术前后端配合，还能给技术文档找错。讲真，任何事情就怕认真，认真了真的是什么都能懂啊。换句话说，只要你认真对待，什么没见过的没听说过的不会的，都可以懂的。当然了，为了让自己更懂，还是需要适时增加自己的知识储备的。边监督边学习，绝对是绝佳的成长体验。</p>
 <p>周末跟吴先生一起看了纪录片《风味人间》和电影《快把我哥带走》。这周发现我综艺荒了。就这个纪录片好像也只剩下一两期了。接下来怎么过呢。对了，周五晚上和周六晚上看了一两部日剧。《就活家族》，是讲一家四口找工作的故事。另外一部是啥我忘了，主要是用来催眠的。周日下午依然是熨衣服。上周把挂烫机的放熨斗的挂钩摔断了。主要是因为那个熨烫板太轻，衣服在上面挪一下什么的，就翘头，就被掀起来，相当不合理。于是上周吴先生给买了新的。一千多的熨烫机。啥也不说了。熨烫机是到了，熨烫板还没发货。下周使用了再讲感受。烫完之后看了上述电影。故事还是不够紧凑，但是意思就是这个意思了。对亲人就是要足够的细心和呵护。付出永远是值得提倡和珍惜的。我发现每天看我们家的那个投影仪投出来的视频节目，不太好，眼睛疼。以后就不看了。就周末做一个家庭影院就好。今天看和听了《经济学人》的China，总共才3篇文章。还增加关注了好几个公众号。你知道的，我不喜欢国内的媒体，但是作为互联网人，关注纯属职业属性。就今天的几篇文章来讲，质量还不错。</p>
@@ -2415,7 +2587,7 @@
   </entry>
   <entry>
     <title>劳动人事争议仲裁委员会的应诉通知</title>
-    <url>/2018/12/09/%E5%8A%B3%E5%8A%A8%E4%BA%BA%E4%BA%8B%E4%BA%89%E8%AE%AE%E4%BB%B2%E8%A3%81%E5%A7%94%E5%91%98%E4%BC%9A%E7%9A%84%E5%BA%94%E8%AF%89%E9%80%9A%E7%9F%A5/</url>
+    <url>/2018/12/09/past/%E5%8A%B3%E5%8A%A8%E4%BA%BA%E4%BA%8B%E4%BA%89%E8%AE%AE%E4%BB%B2%E8%A3%81%E5%A7%94%E5%91%98%E4%BC%9A%E7%9A%84%E5%BA%94%E8%AF%89%E9%80%9A%E7%9F%A5/</url>
     <content><![CDATA[<p>周一一到公司，老板就说10点半开会，要讲解新项目。一脸懵逼，BP的项目才开始两个星期，说好的一个月要完成的，怎么又开始新项目了呢。10点半会议开始才知道，是BP的新项目，做共享纸巾机。上午和下午开了一整天的会，就是讲解需求点和业务逻辑。这是我第一次从头开始参与的项目。虽然听得头昏脑涨，但是我发现这效率是真低。就那么几句话的事情，为什么颠三倒四说了大半天。一方面，讲解人有问题。为了有效地讲解和传达，就不能事先做好准备吗？把你讲解内容做成一个PPT或者其他文档什么的很难吗？讲解的时候，东拼西凑，让听众一边听还要一边梳理。更夸张的是，讲解人根本就不清楚要我们做什么。就知道自己要做这个项目，厂家可以做哪些，然后就没有了。我们做什么这样的需求点还得我们自己理。就这还一直要工期。不清楚做什么，你让我们怎么给你工期。另一方面，老板的汉语能力是真的不行。理解不了别人，别人也没法理解他。就这个会议上，他理直气壮地曲解了讲解人的意思。瞬间我就理解了为什么之前他告诉我的事情跟别人告诉我的不一样。崇尚效率优先的我，在发现他曲解后及时给他“翻译”了一下，他就瞬间理解了。</p>
 <p>说到这个表达能力怎么就这么费劲的？之前财务跟老板沟通不能。现在的财务跟老板沟通需要跟我商量后才能正常进行。之前的运营跟老板也是各说各的，理解不能。这周我听到技术给老板讲了半天乱七八糟，始终讲不不清楚。还是我听明白后，补充了一句，老板瞬间就懂了。老板问产品，为什么设计成只关联一家银行卡。一脸的不可思议。产品一脸懵逼。我一句话人瞬间理解了。以前真没觉得自己表达能力好。现在是真的发现，这理解能力和表达能力简直了。本来觉得可能是跟我之前一直在外企，一直跟外国人打交道。为了说明白事情，肯定是要尽可能的简单易懂的。但是最近我发现，大家在沟通的时候，怎么那么容易找不到重点呢。这是不是逻辑太差了呀。当然可以听懂他们说话，也是也一种厉害的能力。毕竟那么多糟粕，需要去提炼重点，去梳理逻辑，绝对是脑力活，听着都累。</p>
 <p>周二一上班，就被行政叫到小房间，神神叨叨的。看这紧急的样子，问了句是惊喜还是惊吓。然后，人一脸苦逼地告诉我，是惊吓。牛逼了。前员工因为3天的薪资把我们告到仲裁委了。讲真，我们是挺无辜的。因为我们多次让他来领薪了，他死活不来。上次街道来电话调解，也是让他来取。他就是不来，你说怎么办？当时就威胁说要去找仲裁。这不，仲裁委的应诉通知来了。我们是第一次收到这个，也是吃了一惊。然后，我就是找了一整天的资料，看了所有的相关法条，最后还写邮件咨询了我们的律师。结果就是我们没错，坐等开庭。想起来对方还多次在微信上套我的话，尼玛，他都是想拿来做证据的呀。人心难测。就为了3天的工钱，还不是拖欠，是他自己不领，就这么能来事。这还是在一起工作三四个月的同事。这要是一般人，没见过的，交集不多的，谁知道都是何方圣神。立即马上清理了自己的微信好友。但凡不熟的，无互动的，一律删除。活活删到只剩259个人。并且决定以后，每天坚持跟这259个人的朋友圈互动。如果不关心，就删了。如果不能删，就屏了。就这，都开始拒绝加微信了。刚刚想了下，这是不对的。微信该加还是要加的，大不了无互动就删了。嗯，不能错过遇到有趣的人。</p>
@@ -2429,7 +2601,7 @@
   </entry>
   <entry>
     <title>请珍惜爱分享、知好歹、不物质的人！</title>
-    <url>/2018/12/02/%E8%AF%B7%E7%8F%8D%E6%83%9C%E7%88%B1%E5%88%86%E4%BA%AB%E3%80%81%E7%9F%A5%E5%A5%BD%E6%AD%B9%E3%80%81%E4%B8%8D%E7%89%A9%E8%B4%A8%E7%9A%84%E4%BA%BA%EF%BC%81/</url>
+    <url>/2018/12/02/past/%E8%AF%B7%E7%8F%8D%E6%83%9C%E7%88%B1%E5%88%86%E4%BA%AB%E3%80%81%E7%9F%A5%E5%A5%BD%E6%AD%B9%E3%80%81%E4%B8%8D%E7%89%A9%E8%B4%A8%E7%9A%84%E4%BA%BA%EF%BC%81/</url>
     <content><![CDATA[<p>这个周末依然是宅在家里。这两天天很热，都是20到26度。不知道是不是太热了，生物钟又起效了。周六是7点50醒的。想着跟平日里吴先生的闹钟一个点，也算合理。今天是7点过一点。不知道是因为年底了，反思季到了；还是因为快生日了，忐忑起来了。</p>
 <p>周六因为起得早，去菜场也早了些，想着再去买点榴莲。不巧，卖完了。这让我始料不及，上周明明还有那么一大堆。好吧，菜场的菜就是新鲜，聊以安慰自己。10点多就买完了菜，心想不知道吴先生起来没，有点后悔出来得太早了。回到家，妈妈寄的菜还没有到，有点小失望。跟吴先生一起做了每周必做的饭菜，可口、温馨。上周买了几件衣服，破天荒地周六就把衣服都给熨好了。</p>
 <p>周日一大早就是开始折腾blog。上周不知道在哪看到大拿都是自己有blog的人。工作不用自己找，都是别人看到blog找上门来的。思来想去，决定认真写我的blog。一个是为了记录自己的成长，留下真实的印记；另一个单纯是为了安置自己多余的表达欲，免得动不动就发朋友圈，很扰民的。</p>
@@ -2447,7 +2619,7 @@
   </entry>
   <entry>
     <title>Now we’re talking /现在我们用说的——语音技术</title>
-    <url>/2017/03/19/Now-we%E2%80%99re-talking-%E7%8E%B0%E5%9C%A8%E6%88%91%E4%BB%AC%E7%94%A8%E8%AF%B4%E7%9A%84%E2%80%94%E2%80%94%E8%AF%AD%E9%9F%B3%E6%8A%80%E6%9C%AF/</url>
+    <url>/2017/03/19/past/Now-we%E2%80%99re-talking-%E7%8E%B0%E5%9C%A8%E6%88%91%E4%BB%AC%E7%94%A8%E8%AF%B4%E7%9A%84%E2%80%94%E2%80%94%E8%AF%AD%E9%9F%B3%E6%8A%80%E6%9C%AF/</url>
     <content><![CDATA[<p>Now we’re talking<br>Voice technology is making computers less daunting and more accessible<br>现在我们用说的<br>语音技术正在使得计算机不再那么令人生畏而是更容易接近</p>
 <p>ANY sufficiently advanced technology, noted Arthur C. Clarke, a British science-fiction writer, is indistinguishable from magic. The fast-emerging technology of voice computing proves his point. Using it is just like casting a spell: say a few words into the air, and a nearby device can grant your wish.<br>英国科幻小说作家Arthur C. Clarke指出，任何一种足够先进的技术都跟魔法别无二致。 快速兴起的语音计算技术证明了他的观点。 使用它就像施魔法：说出几个字，附近的设备可以满足你的愿望。 </p>
 <p>The Amazon Echo, a voice-driven cylindrical computer that sits on a table top and answers to the name Alexa, can call up music tracks and radio stations, tell jokes, answer trivia questions and control smart appliances; even before Christmas it was already resident in about 4% of American households. Voice assistants are proliferating in smartphones, too: Apple’s Siri handles over 2bn commands a week, and 20% of Google searches on Android-powered handsets in America are input by voice. Dictating e-mails and text messages now works reliably enough to be useful. Why type when you can talk?<br>一个语音驱动的圆柱形计算机——亚马逊Echo，放置在桌面上，响应Alexa，可以打开音乐曲目和广播电台，讲笑话，回答各种问题，以及控制智能家电; 即使在圣诞节之前，它已经入驻约4％的美国家庭。 语音助手正在智能手机上快速发展：苹果的Siri每周处理超过20亿条命令，在美国Android手机上谷歌搜索的20％是通过语音输入的。 听写电子邮件和短信，现在已经可以足够可靠地使用。 当你可以用说的，为什么还要靠输入呢？<br> This is a huge shift. Simple though it may seem, voice has the power to transform computing, by providing a natural means of interaction. Windows, icons and menus, and then touchscreens, were welcomed as more intuitive ways to deal with computers than entering complex keyboard commands. But being able to talk to computers abolishes the need for the abstraction of a “user interface” at all. Just as mobile phones were more than existing phones without wires, and cars were more than carriages without horses, so computers without screens and keyboards have the potential to be more useful, powerful and ubiquitous than people can imagine today.<br>这是一个巨大的转变。 虽然它似乎简单，但是通过提供一种自然的互动手段，语音有能力改变计算。 窗口、图标、菜单、和触摸屏因为处理电脑的方式比输入复杂的键盘命令更便捷而受到欢迎。 但是能够与计算机交谈，完全废除了对“用户界面”这种抽象概念的需要。 就像手机没有电线却比现有的座机更多，汽车没有马却比马车更多，因此没有屏幕和键盘的计算机就有潜力比人们今天想象的更有用、更强大和更普及。</p>
@@ -2466,7 +2638,7 @@
   </entry>
   <entry>
     <title>China sees first monthly trade deficit in three years 近三年中国首次出现月贸易逆差</title>
-    <url>/2017/03/09/China-sees-first-monthly-trade-deficit-in-three-years-%E8%BF%91%E4%B8%89%E5%B9%B4%E4%B8%AD%E5%9B%BD%E9%A6%96%E6%AC%A1%E5%87%BA%E7%8E%B0%E6%9C%88%E8%B4%B8%E6%98%93%E9%80%86%E5%B7%AE/</url>
+    <url>/2017/03/09/past/China-sees-first-monthly-trade-deficit-in-three-years-%E8%BF%91%E4%B8%89%E5%B9%B4%E4%B8%AD%E5%9B%BD%E9%A6%96%E6%AC%A1%E5%87%BA%E7%8E%B0%E6%9C%88%E8%B4%B8%E6%98%93%E9%80%86%E5%B7%AE/</url>
     <content><![CDATA[<p>China sees first monthly trade deficit in three years<br>近三年中国首次出现月贸易逆差<br>8 March 2017</p>
 <p>China has reported its first monthly trade deficit in three years, after imports surged and a slowdown during the Lunar New Year holidays hit output.<br>中国发表了三年来首个月贸易逆差报告，进口激增、农历新年期间产量锐减。<br>Higher commodity prices and domestic demand were credited with pushing February’s imports up 38.1% on a year earlier. But exports unexpectedly fell 1.3%, giving a trade deficit of $9.2bn for the month.<br>China’s monthly imports last exceeded exports in February 2014.<br>Analysts polled by Reuters had forecast China would have a monthly trade surplus of $25.8bn.<br>较高的商品价格和国内需求被认为推动了2月份的进口同比增长38.1％。但出口意外下跌1.3％，使得本月贸易逆差为92亿美元。<br>上次中国的月进口量超过出口量是在2014年2月。<br>据路透社调查显示，分析师预测中国今年月贸易顺差为258亿美元。</p>
 <p>Import slowdown likely<br>进口可能放缓<br>The country’s economic data from January and February can be distorted by the long holidays, which see businesses slowing down and often cutting back operations or closing completely.<br>And most analysts agree that the latest data is just a blip, with a surplus inevitable again once the impact of the holidays tails off.<br>“The latest trade data suggest that, seasonal distortions aside, both exports and imports strengthened at the start of 2017,” said Julian Evans-Pritchard of Capital Economics.<br>“However we doubt that the current pace of import growth can be sustained. It is only a matter of time before we see a slowdown in domestic demand.”<br>1月和2月的国家经济数据受到长假的冲击，商业出现放缓、缩减运营甚至完全关闭。<br>大多数分析师都认为，最新的数据只是昙花一现，一旦假期的影响结束，剩余是不可避免的。<br>资本经济的朱利安·埃文斯 - 普里查德说：“最新的贸易数据表明，除去季节性影响因素，2017年初出口和进口都依然表现强劲。<br>“然而，我们怀疑目前进口增长的速度是否可以持续。我们必将看到国内需求在放缓，这只是时间问题。</p>
@@ -2480,7 +2652,7 @@
   </entry>
   <entry>
     <title>与伽利略擦肩而过的太阳黑子发现</title>
-    <url>/2017/02/15/%E4%B8%8E%E4%BC%BD%E5%88%A9%E7%95%A5%E6%93%A6%E8%82%A9%E8%80%8C%E8%BF%87%E7%9A%84%E5%A4%AA%E9%98%B3%E9%BB%91%E5%AD%90%E5%8F%91%E7%8E%B0/</url>
+    <url>/2017/02/15/past/%E4%B8%8E%E4%BC%BD%E5%88%A9%E7%95%A5%E6%93%A6%E8%82%A9%E8%80%8C%E8%BF%87%E7%9A%84%E5%A4%AA%E9%98%B3%E9%BB%91%E5%AD%90%E5%8F%91%E7%8E%B0/</url>
     <content><![CDATA[<p>About 350 years ago Galileo made a telescope and looked through it at the sun. What he saw both surprised and frightened him, for he saw dark spots on the sun which at once suggested to him that God had not made the world quite as perfect as he had previously believed. He hesitated to make his discovery known. Meanwhile other scientists noticed the same lack of solar perfection and proclaimed (宣布) the fact.<br>大约在350年前，伽利略发明了望远镜，并利用它观察太阳。令他震惊和恐惧的是，他在太阳表面看到了太阳黑斑。这个结果立刻让他联想到上帝创造的世界并非他以前相信的那样完美。他犹豫是否把他的发现公之于众。与此同时，其他的科学家也注意到了太阳的这个缺陷，并且公布了这个事实。</p>
 <p>But Galileo continued his observations and was soon rewarded with another discovery. Fixing his attention on a single sunspot (太阳黑子) group, he noticed that in a few days it had moved in position, just as if the sun itself were turning. Afterwards he found a sunspot group which lived long enough to disappear from view on the western limb (边缘) of the sun, to re-appear on its eastern limb, and finally to regain its old position. This led him to conclude that the sun itself was rotating and that the time it took to make one complete turn was about twenty-five to twenty-seven days. Actually we know from the drawings which Galileo made of sunspots that there must have been quite a lot of them at the time of his observations in the years 1611 and 1612. If he had gone on making his drawings in the years that immediately followed, we know that he would almost certainly have noticed that sunspots were becoming fewer and smaller. But he became interested in other things and so he failed to recognize that there is a kind of long-term cycle in sunspot activity, the sunspots increasing and decreasing as the years go on. Later this discovery of the sunspot activity was made by one of the most patient observers in the history of science, a German chemist, Charles Schwabe.<br>但是伽利略继续他的观测，不久又获得了新的发现。他把注意力固定到一个单个太阳黑子群上，他注意到一些天之后黑子回到原来的位置，就好像太阳自身在转。之后他发现一个黑子群，其从太阳西边消失，从太阳东边再现，最终回到原来的位置。这个引导他得出太阳自身在转这个结论，旋转一个完整周期大约需要25到27天。实际上我们从伽利略在1611年和1612年画的太阳黑子观测图可以得知当时出现大量的太阳黑子。如果他在接下来的数年中继续画图，那么我们知道他将一定会发现太阳黑子变得越来越少和越来越小。但是他开始对别的事情感兴趣，所以他没能认识到太阳黑子活动有一种长期循环性，太阳黑子会随着时间增加和减少。后来这个太阳黑子活动的发现被科学史上最耐心的人之一，德国化学家Charles Schwabe所发现。
 </p>
@@ -2492,7 +2664,7 @@
   </entry>
   <entry>
     <title>噪音的控制</title>
-    <url>/2017/02/15/%E5%99%AA%E9%9F%B3%E7%9A%84%E6%8E%A7%E5%88%B6/</url>
+    <url>/2017/02/15/past/%E5%99%AA%E9%9F%B3%E7%9A%84%E6%8E%A7%E5%88%B6/</url>
     <content><![CDATA[<p>As more people live closer together, and as they use machines to produce leisure, they find that their leisure, and even their working hours, become spoilt by a by-product of their machines — namely, noise. Noise is nowadays in the news; it has acquired political status, and public opinion is demanding, more and more insistently, that something must be done about it.<br>随着人们居住得越来越近，随着他们使用机器来娱乐，他们发现他们的休闲时间，甚至工作时间，被机器的一种副产品——即噪音，给毁了。如今噪音一直是新闻焦点；它获得了政治地位，而且公众舆论也越来越坚持认为必须做些什么来应对它。</p>
 <p>To control noise is to demand much self-discipline (annoyance arises often from lack of common courtesy), a sense of proportion (there is usually a conflict of interest if a noise is to be stopped), the expenditure of money (and it is far more economical to do this early rather that late), and finally, technical knowledge.<br>要控制噪音需要多自律（烦扰多源于缺乏公德），一种协调意识（如果要制止噪音，通常会引起利益冲突），钱财花费（早期处理比后期处理要经济得多），最后还有科技知识。</p>
 <p>Technical difficulties often arise from the subjective-objective nature of the problem. You can define the excessive speed of a motor-car in terms of a pointer reading on a speedometer. But can you define excessive noise in the same way? You find that with any existing simple “noise-meter”, vehicles which are judged to be equally noisy may show considerable difference on the meter.<br>技术难点往往来自于问题本身的主客观性质。你可以根据计速仪所读的一个数值来确定一辆汽车的超速。但是你可以用相同的方法来确定超量的噪音吗？你会发现已存在的任何一个简单的计声仪，那些被判断为噪音量相同的车辆，在计声仪上会显示出相当明显的差异。</p>
@@ -2506,7 +2678,7 @@
   </entry>
   <entry>
     <title>英联盟——1981英语阅读</title>
-    <url>/2017/02/13/%E8%8B%B1%E8%81%94%E7%9B%9F%E2%80%94%E2%80%941981%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/</url>
+    <url>/2017/02/13/past/%E8%8B%B1%E8%81%94%E7%9B%9F%E2%80%94%E2%80%941981%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/</url>
     <content><![CDATA[<p>The United Kingdom is a monarchical (君主政体的) State. It is one of the independent members of the Commonwealth (the Queen is recognized as head of the Commonwealth), and a member of the European Community.<br>（大不列颠）联合王国是群主立宪制国家，是英联邦的独立国家之一（女王被认作英联邦的首脑），是欧洲共同体的成员国。</p>
 <p>The origins and traditions of the United Kingdom are to be found in each of the four parts that make up the country: England, Wales, Scotland and Northern Ireland. England was united as a kingdom a thousand years ago, and Wales became part of the kingdom during the middle ages. The thrones (王位) of England and Scotland were united in 1603, and in 1707 legislation passed in the two countries provided for the establishment of a single Parliament of Great Britain with supreme authority both in England and Wales and in Scotland. Ireland had had links with the kingdom of England since the thirteenth century, and in 1800 the creation of the United Kingdom was completed by a union joining the Irish Parliament to that of Great Britain. In 1922 Southern Ireland (now the Irish Republic) became a self-governing country. The six counties of Northern Ireland had in 1920 been given their own subordinate Parliament, and voted to remain within the United Kingdom.<br>（大不列颠）联合王国的起源和传统可以在其四个组成部分找到：英格兰、威尔士、苏格兰和北爱尔兰。英格兰早在一千年前就是一个统一的王国，威尔士是在中世纪成为这个王国的一部分。英格兰和苏格兰的王位统一是在1603年，1707年两国立法通过，规定设立一个单一的、在英格兰和威尔士、以及在苏格兰均享有最高权力的大不列颠国会。爱尔兰从13世纪起跟英格兰王国有联系，1800年爱尔兰国会并入大不列颠，宣告（大不列颠）联合王国建立。1922年南爱尔兰（现在的爱尔兰共和国）成为自主的国家。1920年北爱尔兰的6个郡被授予成立了自己的、附属（大不列颠）联合王国国会之下的议会，并投票表决留在（大不列颠）联合王国。</p>
 <p>The United Kingdom Parliament at Westminster in London — with an elected chamber comprising members from English, Scottish, Welsh and Northern Ireland constituencies (选举区) — therefore represents people sharing very varied backgrounds and traditions. It has ultimate authority for government and law-making, but administrative arrangements have developed in such a way as to take account of the particular needs of different areas.<br>（大不列颠）联合王国议会位于伦敦的威斯敏斯特——有一个选举出来的、由包括英格兰、苏格兰、威尔士和北爱尔兰选区所产生的议员组成的议院——因此代表具有非常多样背景和传统的人民。它具有最高政府权和立法权，但是为了照顾不同地区的特许需求，行政安排有所不同。</p>
@@ -2519,7 +2691,7 @@
   </entry>
   <entry>
     <title>《20世纪最伟大的心理学实验》——Lauren Stater</title>
-    <url>/2016/09/13/%E3%80%8A20%E4%B8%96%E7%BA%AA%E6%9C%80%E4%BC%9F%E5%A4%A7%E7%9A%84%E5%BF%83%E7%90%86%E5%AD%A6%E5%AE%9E%E9%AA%8C%E3%80%8B%E2%80%94%E2%80%94Lauren-Stater/</url>
+    <url>/2016/09/13/past/%E3%80%8A20%E4%B8%96%E7%BA%AA%E6%9C%80%E4%BC%9F%E5%A4%A7%E7%9A%84%E5%BF%83%E7%90%86%E5%AD%A6%E5%AE%9E%E9%AA%8C%E3%80%8B%E2%80%94%E2%80%94Lauren-Stater/</url>
     <content><![CDATA[<p>这本书讲了20世纪非常经典的10个实验，各成一章。作者用非常灵动的手法，由浅入深地描述了实验的整个过程及其影响。特别生动有趣的是作者加入了自己对实验相关人的采访片段，身临其境的讲述实验故事和感悟，娓娓道来，畅汗淋漓。</p>
 <p>这本书应证着我对于心理学一贯的态度，高度抽取事实，得出一般的规律。其中的很多实验理论和结论，已经在平时的生活中知道或是学到。但是究其根本，知道其源头、其最初的样子，不失为有趣和深入的学习过程。心理学与其他科学，哲学、生理学、物理学等的千丝万缕的关系，既是其难以独立、被认为是伪科学的“佐证”，更是其意义深远而显著之证明。既触及日常生活之琐碎，又高深莫测于宇宙。妙哉！</p>
 <p><img src="https://amayading.com/usr/uploads/2016/09/3145284348.jpg" alt="封面" title="封面"></p>
@@ -2531,7 +2703,7 @@
   </entry>
   <entry>
     <title>He Never Heard a Thing</title>
-    <url>/2016/08/13/He-Never-Heard-a-Thing/</url>
+    <url>/2016/08/13/past/He-Never-Heard-a-Thing/</url>
     <content><![CDATA[<p>He never heard a thing!<br>Working at the post office, I’m used to dealing with a moody public. So when one irate customer stormed my desk, I responded in my calmest voice,”What’s the trouble?”<br>“I went out this morning,” she began, “and when I came home I found a card saying the mailman tried to deliver a package but no one was home. My husband was in all morning. He never heard a thing!”<br>After apologizing, I got her parcel. “Oh, good,” she gushed. “We’ve been waiting for this for ages.”<br>“What is it?” I asked.<br>“My husband’s new hearing aid.”<br>他什么都没听到！<br>我在邮局工作，早已习惯了客户的各种情绪。一天当一位恼怒的客户气冲冲地来到我的工作台，我还是用非常平静的声音问道，“什么事？”<br>“我早上外出了，”她开始说道，“等我回来的时候，我发现一个卡片，说是邮递员来送包裹，但是没人在家。我老公一上午都在家，但是他什么都没有听到。”<br>道完歉后，我递给她那个包裹。“噢，太好了”，她滔滔不绝地说，“我们已经等了它好多年！”<br>“是什么好东西？”我问。<br>“我老公的新助听器。”</p>
 <p>Have You Ceased Beating Your Wife?<br>This story is told of a browbeating counsel, who habitually endeavored to terrorize his opponent’s witnesses.<br>One witness rather tended to preface his replies with lengthy explanations.<br>“I want ‘yes’ or ‘no’”, thundered counsel, “There is no need for you to argue the point!”<br>“But there are some questions which cannot be answered by ‘yes’ or ‘no’”, mildly responded the witness.<br>“There are not!” snapped the lawyer.<br>“Oh,” said the witness, “answer this then: Have you ceased beating your wife?”<br>你已经停止打你老婆了吗？<br>这个故事讲的是一个咄咄逼人的律师，他习惯于尽量恐吓对方证人。<br>一次一个证人回答问题时，倾向于铺垫冗长的解释。<br>“我想要听到‘是’或者‘不是’”，这个律师吼道，“你没有必要就这个问题辩论！”<br>“但是有些问题，是无法用‘是’或者‘不是’来回答的”，证人温柔地回答道。<br>“不存在这样的问题！”律师吼道。<br>“噢，”证人说道，“那么回答这个问题：你已经停止打你老婆了吗？”</p>
 <p>Headstone “Strange”<br>A lawyer named Strange was shopping for a tombstone. After he had made his selection, the stonecutter asked him what inscription he would like on it. “Here lies a honest man and a lawyer,” responded the lawyer. “Sorry, but I can’t do that,” replied the stonecutter. “In this state, it’s against the law to bury two people in the same grave. However I could put ‘here lies an honest lawyer’.” “But that won’t let people know who it is!” protested the lawyer. “Certainly will,” retorted the stonecutter. “people will read it and exclaim,’That’s Strange!’”<br>“奇怪”墓碑<br>一位名为奇怪的律师在选购一块墓碑。选好后，雕刻匠问他想要刻上什么碑文。“这里长眠着一位诚实的人，一位律师，”律师回答道。“对不起我不能这么做，”雕刻匠说，“在这个州，一个墓埋葬两个人是违法的。不过，我可以刻上：‘这里长眠着一位诚实的律师’。” “但是这样没法让人们知道这里埋葬着谁！”律师抗议道。“当然知道啦，”雕刻匠反驳道，“人们看到后会大声惊呼，‘咦？奇怪！’”</p>
@@ -2545,7 +2717,7 @@
   </entry>
   <entry>
     <title>A Woman Who Fell</title>
-    <url>/2016/08/12/A-Woman-Who-Fell/</url>
+    <url>/2016/08/12/past/A-Woman-Who-Fell/</url>
     <content><![CDATA[<ol>
 <li>A Woman Who Fell<br>It was rush hour and I was dashing to a train in New York City’s Grand Central Terminal. As I neared the gate, a plump, middle-aged woman sprinted up from behind, lost her footing on the smooth marble floor and slid onto her back. Her momentum carried her close to my shoes. Before I could help her, however, she had scrambled up. Gaining her composure, she winked at me and said, “Do you always have beautiful women falling at your feet?”</li>
 </ol>
@@ -2574,7 +2746,7 @@
   </entry>
   <entry>
     <title>Joke time</title>
-    <url>/2016/08/10/Joke-time/</url>
+    <url>/2016/08/10/past/Joke-time/</url>
     <content><![CDATA[<ol>
 <li>I’ll Change My Name<br>At the age of 16, Edely decided to leave home and join a theater company. His father was appalled, “A son of mine on the stage? It’s a disgrace!” he wailed. “What if the neighbors find out?”</li>
 </ol>
@@ -2600,7 +2772,7 @@
   </entry>
   <entry>
     <title>亚马逊日本网居然写着中文——中国人爆买日本，亚马逊日本要抓住这个商机</title>
-    <url>/2016/08/03/%E4%BA%9A%E9%A9%AC%E9%80%8A%E6%97%A5%E6%9C%AC%E7%BD%91%E5%B1%85%E7%84%B6%E5%86%99%E7%9D%80%E4%B8%AD%E6%96%87%E2%80%94%E2%80%94%E4%B8%AD%E5%9B%BD%E4%BA%BA%E7%88%86%E4%B9%B0%E6%97%A5%E6%9C%AC%EF%BC%8C%E4%BA%9A%E9%A9%AC%E9%80%8A%E6%97%A5%E6%9C%AC%E8%A6%81%E6%8A%93%E4%BD%8F%E8%BF%99%E4%B8%AA%E5%95%86%E6%9C%BA/</url>
+    <url>/2016/08/03/past/%E4%BA%9A%E9%A9%AC%E9%80%8A%E6%97%A5%E6%9C%AC%E7%BD%91%E5%B1%85%E7%84%B6%E5%86%99%E7%9D%80%E4%B8%AD%E6%96%87%E2%80%94%E2%80%94%E4%B8%AD%E5%9B%BD%E4%BA%BA%E7%88%86%E4%B9%B0%E6%97%A5%E6%9C%AC%EF%BC%8C%E4%BA%9A%E9%A9%AC%E9%80%8A%E6%97%A5%E6%9C%AC%E8%A6%81%E6%8A%93%E4%BD%8F%E8%BF%99%E4%B8%AA%E5%95%86%E6%9C%BA/</url>
     <content><![CDATA[<p>在中国很多人因为担心质量问题和假货问题转而求购日本商品的人不在少数。所以，访日中国人的爆买现象不断扩大，与此同时也推动了对亚马逊日本的需求。预计2019年日本针对中国消费者的电子商务需求将增加到目前的3倍，亚马逊从这种需求中看到了商机。亚马逊日本网用中文介绍的商品达数百万种之多，而且今后还将进一步扩大。亚马逊日本还导入了新的系统，用来控制运往中国的物流费和手续费，甚至可以直接用人民币结算。在日本网站上添加中文开始于6月30日，亚马逊日本的总经理说，日本网站面向中国客户将是个很大的商机。</p>
 <p>中国では品質や偽物を心配し日本製品を求める人が少なくない。こうした影響により訪日中国人の爆買いが広がり、同時にアマゾンジャパンといった日本のEコマースへの需要を後押しした。2019年には日本のEコマース市場に対する中国消費者の需要は現在の3倍に増加する見通しで、アマゾンはこうした需要拡大で商機を見出そうとしている。 </p>
 <p>アマゾンの日本サイトでは中国語で数百万種類の商品が紹介され、今後さらに拡大するという。さらに、中国向けに配送料や手数料を押さえたシステムを導入し、中国の通貨・人民元での決済を可能にした。 </p>
@@ -2612,7 +2784,7 @@
   </entry>
   <entry>
     <title>再读《傲慢与偏见》</title>
-    <url>/2016/04/18/%E5%86%8D%E8%AF%BB%E3%80%8A%E5%82%B2%E6%85%A2%E4%B8%8E%E5%81%8F%E8%A7%81%E3%80%8B/</url>
+    <url>/2016/04/18/past/%E5%86%8D%E8%AF%BB%E3%80%8A%E5%82%B2%E6%85%A2%E4%B8%8E%E5%81%8F%E8%A7%81%E3%80%8B/</url>
     <content><![CDATA[<p>　　记得小时候课本上有过一段《傲慢与偏见》的对白，然而我实在不记得我是什么时候读的整本书。甚至因为时间的久远，我都忘了这本书是讲什么的了。但是因为那张《<em>*</em>必读清单》上有这本书，我秉着先易后难的态度，就又读了一遍。怎么说呢，这次读完印象开始深刻起来了。不知道是因为这次读它的目的更深远，还是因为成长让人可以解读得更深入，反正我开始有了一些些感受和体会。<br>　　最近觉得对作品背景的了解极其关键，因为作品本身归根结底是为了反映时代。所以，我一直主张只有了解故事的历史、读懂故事的背景才能更好的理解故事、了解故事中的人物，进而领略和吸收故事所表达的一切。所以，在阅读这本作品之前，准确的说是阅读完清单上《百年孤独》之后，阅读清单上其他国外作品之前，我重温了一下世界史。显然这是不够的，我需要更详细地去了解一个个国家的古往今来，而不是被一笔带过甚至忽略的高度概括。我以为要很好的了解一部文学作品，对这部作品所在的时代有清晰的了解，是大有裨益的。我认为读文学作品，我们需要思考的就两点。一点是不同，有哪些不一样新鲜没听说过的。另一点是同，又有哪些是跟自己的认知苟同雷同或是相同的。然后，思考比较这些异同的利弊就可以了。而关注时代才可以帮助解释这些异同。　<br>　　说回《傲慢与偏见》，也没啥可震撼的。无非就是身份和地位可以决定很多东西。在我们当下的生活中不也一样么。这就是我一直都感知到的一个人所在的朋友圈就是他身份地位的写照。要想获得更好的朋友圈，你必须要先提高自己的身份和地位。</p>
 ]]></content>
       <categories>
