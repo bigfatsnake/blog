@@ -51,14 +51,17 @@
   };
 </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Amaya">
-<meta property="og:url" content="https:&#x2F;&#x2F;www.amayading.com&#x2F;archives&#x2F;index.html">
+  <meta name="description" content="const fs &#x3D; require(&amp;apos;fs&amp;apos;); const { resolve } &#x3D; require(&amp;apos;path&amp;apos;);  const Path &#x3D; resolve(__dirname, &amp;apos;.&#x2F;辨析词汇.md&amp;apos;);  let text &#x3D; fs.readFileSync(Path, { encoding: &amp;apos;utf-8&amp;apos; });  text &#x3D; text.replace(&#x2F;(\d+?)\.&#x2F;g">
+<meta property="og:type" content="article">
+<meta property="og:title" content="jaoben">
+<meta property="og:url" content="https:&#x2F;&#x2F;www.amayading.com&#x2F;2020&#x2F;01&#x2F;10&#x2F;jaoben&#x2F;index.html">
 <meta property="og:site_name" content="Amaya">
+<meta property="og:description" content="const fs &#x3D; require(&amp;apos;fs&amp;apos;); const { resolve } &#x3D; require(&amp;apos;path&amp;apos;);  const Path &#x3D; resolve(__dirname, &amp;apos;.&#x2F;辨析词汇.md&amp;apos;);  let text &#x3D; fs.readFileSync(Path, { encoding: &amp;apos;utf-8&amp;apos; });  text &#x3D; text.replace(&#x2F;(\d+?)\.&#x2F;g">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2020-01-10T21:22:40.125Z">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://www.amayading.com/archives/">
+<link rel="canonical" href="https://www.amayading.com/2020/01/10/jaoben/">
 
 
 <script id="page-configurations">
@@ -66,13 +69,13 @@
   CONFIG.page = {
     sidebar: "",
     isHome: false,
-    isPost: false,
+    isPost: true,
     isPage: false,
-    isArchive: true
+    isArchive: false
   };
 </script>
 
-  <title>归档 | Amaya</title>
+  <title>jaoben | Amaya</title>
   
 
 
@@ -206,235 +209,95 @@
           <div class="content">
             
 
+  <div class="posts-expand">
+      
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 28 篇日志。 继续努力。</span>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://www.amayading.com/2020/01/10/jaoben/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Amaya">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Amaya">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          jaoben
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-01-10 21:22:40" itemprop="dateCreated datePublished" datetime="2020-01-10T21:22:40+00:00">2020-01-10</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <h1 class="collection-header">2020</h1>
+        const fs = require('fs');
+const { resolve } = require('path');
+
+const Path = resolve(__dirname, './辨析词汇.md');
+
+let text = fs.readFileSync(Path, { encoding: 'utf-8' });
+
+text = text.replace(/(\d+?)\./g, (a, b, c, d, e, f) => {
+    if (b > 332) {
+
+        return (b - 1) + '.';
+    } else {
+        return a
+    }
+});
+
+fs.writeFileSync(Path, text);
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-01-10T21:22:40+00:00"
-              content="2020-01-10">
-          01-10
-        </time>
-      </div>
+      <footer class="post-footer">
 
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/01/10/jaoben/" itemprop="url">
-            <span itemprop="name">jaoben</span>
-          </a>
-      </h2>
+        
 
-    </header>
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+                <a href="/2020/01/10/%E8%BE%A8%E6%9E%90%E8%AF%8D%E6%B1%87/" rel="next" title="辨析词汇">
+                  <i class="fa fa-chevron-left"></i> 辨析词汇
+                </a>
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+            </div>
+          </div>
+      </footer>
+    
   </article>
+  
+  
+  
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-01-10T14:16:48+00:00"
-              content="2020-01-10">
-          01-10
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/01/10/%E8%BE%A8%E6%9E%90%E8%AF%8D%E6%B1%87/" itemprop="url">
-            <span itemprop="name">辨析词汇</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-    <div class="collection-year">
-      <h1 class="collection-header">2019</h1>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-12-22T23:15:41+00:00"
-              content="2019-12-22">
-          12-22
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2019/12/22/5000%E9%A2%98%E4%B9%8B%E6%95%B0%E5%AD%A6%E8%BF%90%E7%AE%97/" itemprop="url">
-            <span itemprop="name">5000题之数学运算</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-12-20T14:25:10+00:00"
-              content="2019-12-20">
-          12-20
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2019/12/20/%E6%B7%B1%E5%9C%B3%E5%B8%82%E8%80%83%E6%95%B0%E9%87%8F%E8%BF%90%E7%AE%97%E6%95%B4%E7%90%86/" itemprop="url">
-            <span itemprop="name">深圳市考数量运算整理</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-12-15T18:29:04+00:00"
-              content="2019-12-15">
-          12-15
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2019/12/15/5000%E9%A2%98%E6%95%B0%E5%AD%97%E6%8E%A8%E7%90%86%E9%94%99%E9%A2%98%E9%9A%BE%E9%A2%98%E6%B1%87%E6%80%BB/" itemprop="url">
-            <span itemprop="name">5000题数字推理错题难题汇总</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-12-11T01:08:00+00:00"
-              content="2019-12-11">
-          12-11
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2019/12/11/%E6%95%B0%E5%AD%97%E6%8E%A8%E7%90%86/" itemprop="url">
-            <span itemprop="name">深圳市数字推理</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-11-30T00:03:14+00:00"
-              content="2019-11-30">
-          11-30
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2019/11/30/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%A0%87%E9%A2%98/" itemprop="url">
-            <span itemprop="name">记事本</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-10-25T11:49:00+00:00"
-              content="2019-10-25">
-          10-25
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2019/10/25/%E7%94%B3%E8%AE%BA%E7%A7%AF%E7%B4%AF%EF%BC%9A%E6%94%BF%E7%AD%96%E3%80%81%E6%97%B6%E8%AF%84%E5%92%8C%E8%AF%97%E8%AF%8D/" itemprop="url">
-            <span itemprop="name">申论积累：政策、时评和诗词</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-08-20T03:38:40+00:00"
-              content="2019-08-20">
-          08-20
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2019/08/20/past/%E6%83%B3%E5%A5%B6%E5%A5%B6%E4%BA%86/" itemprop="url">
-            <span itemprop="name">想奶奶了</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-05-26T04:05:00+00:00"
-              content="2019-05-26">
-          05-26
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2019/05/26/past/Kindle%E4%BD%BF%E7%94%A8tips/" itemprop="url">
-            <span itemprop="name">Kindle使用tips</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-
-    </div>
   </div>
-  
-  
-  
-
-  
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/archives/page/2/">2</a><a class="page-number" href="/archives/page/3/">3</a><a class="extend next" rel="next" href="/archives/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
-  </nav>
-
 
 
           </div>
