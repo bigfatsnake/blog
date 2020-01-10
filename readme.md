@@ -26,3 +26,7 @@ vscode： 使用快捷键 control+shift+\`（数字键1之前的键） 创建终
 ``` bash
 bash ./publish.sh
 ```
+
+#### 同步
+他出vs修改后，同步到这台电脑VS
+git pull
