@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>jaoben</title>
+    <url>/2020/01/11/jaoben/</url>
+    <content><![CDATA[const fs = require('fs');
+const { resolve } = require('path');
+
+const Path = resolve(__dirname, './辨析词汇.md');
+
+let text = fs.readFileSync(Path, { encoding: 'utf-8' });
+
+text = text.replace(/(\d+?)\./g, (a, b, c, d, e, f) => {
+    if (b > 406) {
+
+        return (b - 1) + '.';
+    } else {
+        return a
+    }
+});
+
+fs.writeFileSync(Path, text);]]></content>
+  </entry>
+  <entry>
     <title>辨析词汇</title>
-    <url>/2020/01/11/%E8%BE%A8%E6%9E%90%E8%AF%8D%E6%B1%87/</url>
-    <content><![CDATA[<hr>
-<p>title： 辨析词汇<br>date： 2020-01-10 14：16：48<br>tags：</p>
-<hr>
-<h3 id="实词辨析-438-组"><a href="#实词辨析-438-组" class="headerlink" title="实词辨析 438 组"></a>实词辨析 438 组</h3><ol>
+    <url>/2020/01/10/%E8%BE%A8%E6%9E%90%E8%AF%8D%E6%B1%87/</url>
+    <content><![CDATA[<h3 id="实词辨析-438-组"><a href="#实词辨析-438-组" class="headerlink" title="实词辨析 438 组"></a>实词辨析 438 组</h3><ol>
 <li><p>【哀怜·爱怜·爱恋】<br>“哀怜”指对别人的不幸遭遇表示同情，如“中华民族有哀怜弱者的传统”。<br>“爱怜”指十分疼爱，多用于子女，如“爱怜子女”。<br>“爱恋”指热爱而难以分离，多用于男女之间，如“二十多年来，他俩一直相互爱恋着”。</p>
 </li>
 <li><p>【爱护·爱惜】<br>“爱护”有精心保护，不使受到损坏或伤害的意思。爱护公物，人人有责。<br>“爱惜”指不浪费，不糟蹋。他很爱惜他的名誉。<br>“爱护”既可指人，又可指物。“爱惜”仅指物或抽象事物，如“时间”。</p>
@@ -1125,27 +1143,6 @@
 </ol>
 <p><strong>误用</strong>&nbsp;&nbsp;&nbsp;&nbsp;群众的眼睛是雪亮的，俗话说得好，众口铄金。只有充分信任群众，调动民众参与的积极性，才能最大程度地发挥民主舆论的作用，推动我国执政民主化的进程。<br><strong>纠错</strong>&nbsp;&nbsp;&nbsp;&nbsp;句中“众口铄金”属于典型的误用，句子表达的意思是发挥群众的积极性，调动民主舆论都是表示积极的感情色彩，然而“众口铄金”并非“汇总群众意见能够成为金玉良言”的意思，此句应该将这个成语删去。</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>jaoben</title>
-    <url>/2020/01/11/jaoben/</url>
-    <content><![CDATA[const fs = require('fs');
-const { resolve } = require('path');
-
-const Path = resolve(__dirname, './辨析词汇.md');
-
-let text = fs.readFileSync(Path, { encoding: 'utf-8' });
-
-text = text.replace(/(\d+?)\./g, (a, b, c, d, e, f) => {
-    if (b > 406) {
-
-        return (b - 1) + '.';
-    } else {
-        return a
-    }
-});
-
-fs.writeFileSync(Path, text);]]></content>
   </entry>
   <entry>
     <title>5000题之数学运算</title>
