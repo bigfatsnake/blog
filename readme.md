@@ -8,7 +8,7 @@
 
 #### 创建文章
 
-vscode： 使用快捷键 control+shift+\`（数字键1之前的键） 创建终端，输入 hexo new [title（最好加双引号）] 比如 `hexo new "这是一个标题"`，文件会放在 `source/_posts/这是一个标题.md` 下面，打开它
+vscode： 使用快捷键 control+shift+\`（数字键1之前的键） 创建终端，输入 npx hexo new [title（最好加双引号）] 比如 `npx hexo new "这是一个标题"`，文件会放在 `source/_posts/这是一个标题.md` 下面，打开它
 
 #### 写文章
 
