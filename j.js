@@ -14,9 +14,9 @@ text = text.split(/\n/).map(n => {
     if (/^\d+\.[ ]/.test(n)) {
         return n.replace(/^(\d+)\.[ ]/, (a, b, c, d) => {
             // 数字判断
-            if (b >239) {
+            if (b >322) {
                 // 这里可能会+1也有可能是-1，根据需求
-                return `${Number(b) + 1}. `;
+                return `${Number(b) - 1}. `;
             } else {
                 return a;
             }
